@@ -17,13 +17,15 @@
         </p>
       </div>
       <div class="grid gap-8 row-gap-10 lg:grid-cols-2 place-content-center">
-        <div class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center">
+        <div
+          class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center"
+        >
           <div
             class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-12 h-12 text-purple-400 sm:w-16 sm:h-16 "
+              class="w-12 h-12 text-purple-400 sm:w-16 sm:h-16"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -44,7 +46,9 @@
             support!
           </p>
         </div>
-        <div class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center">
+        <div
+          class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center"
+        >
           <div
             class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
           >
@@ -70,7 +74,9 @@
             make you highly satisfied.
           </p>
         </div>
-        <div class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center">
+        <div
+          class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center"
+        >
           <div
             class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
           >
@@ -96,7 +102,9 @@
             may be small compared to her deep, dark secret.
           </p>
         </div>
-        <div class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center">
+        <div
+          class="flex flex-col items-center max-w-md sm:mx-auto sm:text-center"
+        >
           <div
             class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
           >

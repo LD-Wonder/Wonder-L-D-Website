@@ -4,7 +4,12 @@
       class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
       <div class="relative flex items-center justify-between">
-        <a href="/" aria-label="WA" title="WA" class="inline-flex items-center shadow-md">
+        <a
+          href="/"
+          aria-label="WA"
+          title="WA"
+          class="inline-flex items-center shadow-md"
+        >
           <img
             src="https://media.discordapp.net/attachments/774149413332844564/952222663298908200/image_2022-01-09_201828-modified.png"
             class="w-8 text-violet-400"
@@ -15,7 +20,7 @@
             >WA</span
           >
         </a>
-        <ul class="items-center hidden space-x-8  lg:flex">
+        <ul class="items-center hidden space-x-8 lg:flex">
           <li>
             <a
               href="/"
