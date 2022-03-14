@@ -24,7 +24,7 @@
           </p>
           <div class="flex flex-col items-center p-8 lg:items-start">
             <a
-              class="inline-flex px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded-full hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
+              class="inline-flex px-8 py-3 mt-8 text-white bg-violet-600 border border-violet-600 rounded-full hover:bg-transparent hover:text-violet-600 active:text-violet-500 focus:outline-none focus:ring"
               href="/join"
             >
               <span class="text-sm font-medium">Join Now!</span>
