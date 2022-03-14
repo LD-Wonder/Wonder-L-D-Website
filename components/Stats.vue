@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-gray-900">
-    <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+  <section class="px-4 text-center bg-gray-900">
+    <div class="max-w-xl px-4 pt-16 mb-10 md:px-24 lg:px-8 lg:pt-20 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
       <h2
         class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-violet-500 sm:text-4xl md:mx-auto"
       >

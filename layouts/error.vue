@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin: 0; height: 100%">
     <div class="pt-10 sm:pt-20 md:pt-24">
       <!-- Features grid header -->
       <div class="text-center">
@@ -35,14 +35,7 @@
 
 <script>
 export default {
-  layout: 'empty',
-  props: ['error'], // you can set a custom layout for the error page
-}
+  layout: "empty",
+  props: ["error"], // you can set a custom layout for the error page
+};
 </script>
-<style>
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
-</style>

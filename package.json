@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "git": "git add . && git commit -m \"🧪\" && git push -u origin main"
   },
   "dependencies": {
     "core-js": "^3.19.3",

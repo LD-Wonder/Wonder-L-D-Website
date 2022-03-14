@@ -3,8 +3,12 @@
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
-          <span class="block w-32 h-10 bg-gray-200 rounded-lg"></span>
-
+          <span class="flex content-center w-32 h-10 bg-gray-800 rounded-lg"
+            ><img
+              src="https://media.discordapp.net/attachments/774149413332844564/952870060974813194/banner.png"
+              class="self-center text-violet-400"
+              alt=""
+          /></span>
           <p class="max-w-xs mt-4 text-sm text-gray-500">
             Made with 💜 by MrFluffycloud
           </p>
@@ -12,7 +16,7 @@
           <div class="flex mt-8 space-x-6 text-gray-500">
             <a
               class="hover:opacity-75"
-              href=""
+              href="#"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,7 +38,7 @@
 
             <a
               class="hover:opacity-75"
-              href=""
+              href="#"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +58,7 @@
 
             <a
               class="hover:opacity-75"
-              href=""
+              href="#"
               target="_blank"
               rel="noreferrer"
             >
@@ -77,22 +81,34 @@
         </div>
 
         <div
-          class="grid grid-cols-1 gap-8 text-white lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4"
+          class="grid grid-cols-1 gap-8 text-white lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4 underline-offset-2 decoration-2"
         >
           <div>
             <p class="font-medium">Us</p>
 
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 About
               </a>
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Meet the Team
               </a>
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 History
               </a>
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Careers
               </a>
             </nav>
@@ -102,7 +118,10 @@
             <p class="font-medium">Services</p>
 
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Company Review
               </a>
             </nav>
@@ -112,10 +131,16 @@
             <p class="font-medium">Helpful Links</p>
 
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Contact
               </a>
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 FAQs
               </a>
             </nav>
@@ -125,13 +150,22 @@
             <p class="font-medium">Legal</p>
 
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Privacy Policy
               </a>
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Terms & Conditions
               </a>
-              <a class="hover:opacity-75 hover:text-purple-400" href="">
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="#"
+              >
                 Refund Policy
               </a>
             </nav>

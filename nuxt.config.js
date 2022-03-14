@@ -36,7 +36,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
-
+  generate: { fallback: "404.html" },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {
