@@ -57,16 +57,6 @@
               >Contact us</a
             >
           </li>
-          <li>
-            <a
-              href="/join"
-              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-violet-600 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-              aria-label="Join"
-              title="Join"
-            >
-              Join
-            </a>
-          </li>
         </ul>
         <div class="lg:hidden">
           <button
@@ -166,16 +156,6 @@
                       class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-400"
                       >Contact us</a
                     >
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-violet-600 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-                      aria-label="Join"
-                      title="Join"
-                    >
-                      Join
-                    </a>
                   </li>
                 </ul>
               </nav>

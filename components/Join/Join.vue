@@ -12,22 +12,20 @@
         </h1>
 
         <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
-          Monke banana milk shake yumm!!!
+          Redirecting you to our Discord Sever
+        </p>
+        <p
+          class="mx-auto mt-4 text-xs text-gray-400 max-w-s sm:leading-relaxed"
+        >
+          Redirecting in 5 Seconds.. Click Button below if Redirect doesn't work
         </p>
 
         <div class="flex flex-wrap justify-center gap-4 mt-8">
           <a
             class="block w-full px-12 py-3 text-sm font-medium text-white border rounded-full bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
-            href="/join"
+            href="https://discord.gg/hdDABckHvM"
           >
-            Join Now!
-          </a>
-
-          <a
-            class="block w-full px-12 py-3 text-sm font-medium text-white border rounded-full border-violet-600 sm:w-auto hover:bg-violet-600 active:bg-violet-500 focus:outline-none focus:ring"
-            href="/about"
-          >
-            About Us
+            Redirect Now!
           </a>
         </div>
       </div>
