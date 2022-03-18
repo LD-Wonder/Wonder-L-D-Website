@@ -15,15 +15,15 @@
     <div
       class="px-4 py-16 mx-auto text-white sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
     >
-      <div class="grid grid-cols-2 row-gap-8 md:grid-cols-3">
+      <div class="grid grid-cols-2 row-gap-8 md:grid-cols-2">
         <div class="text-center md:border-r">
           <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">
             <client-only>
               <number
                 :from="0"
-                :to="2569"
+                :to="totalClients"
                 :duration="2"
-                :delay="0"
+                :delay="1"
                 easing="Power1.easeOut"
               ></number> </client-only
             >+
@@ -34,32 +34,14 @@
             Active Clients
           </p>
         </div>
-        <div class="text-center md:border-r">
-          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">
-            <client-only>
-              <number
-                :from="0"
-                :to="2569"
-                :duration="2"
-                :delay="0"
-                easing="Power1.easeOut"
-              ></number> </client-only
-            >+
-          </h6>
-          <p
-            class="text-sm font-medium tracking-widest text-whiteuppercase lg:text-base text-violet-400"
-          >
-            Total Customers
-          </p>
-        </div>
         <div class="text-center">
           <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">
             <client-only>
               <number
                 :from="0"
-                :to="69"
+                :to="totalStaff"
                 :duration="2"
-                :delay="0"
+                :delay="1"
                 easing="Power1.easeOut"
               ></number> </client-only
             >+
@@ -74,3 +56,20 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: "get-request-async-await",
+  data() {
+    return {
+      totalStaff: null,
+      totalClients: 70
+    };
+  },
+  async created() {
+    const response = await fetch("https://adminportal.wadiscord.com/api/staff");
+    const data = await response.json();
+    this.totalStaff = data.count;
+  }
+};
+</script>
