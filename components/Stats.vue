@@ -62,8 +62,8 @@ export default {
   name: "get-request-async-await",
   data() {
     return {
-      totalStaff: null,
-      totalClients: null
+      totalStaff: 0,
+      totalClients: 0
     };
   },
   async created() {
