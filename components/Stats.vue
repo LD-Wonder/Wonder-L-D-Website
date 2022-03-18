@@ -23,7 +23,7 @@
                 :from="0"
                 :to="totalClients"
                 :duration="2"
-                :delay="1"
+                :delay="0"
                 easing="Power1.easeOut"
               ></number> </client-only
             >+
@@ -41,7 +41,7 @@
                 :from="0"
                 :to="totalStaff"
                 :duration="2"
-                :delay="1"
+                :delay="0"
                 easing="Power1.easeOut"
               ></number> </client-only
             >+
@@ -63,13 +63,17 @@ export default {
   data() {
     return {
       totalStaff: null,
-      totalClients: 70
+      totalClients: null
     };
   },
   async created() {
-    const response = await fetch("https://adminportal.wadiscord.com/api/staff");
+    const headers = { "Content-Type": "application/json" };
+    const response = await fetch("https://adminportal.wadiscord.com/api/staff", headers);
     const data = await response.json();
+    const response2 = await fetch("https://adminportal.wadiscord.com/api/clients", headers);
+    const data2 = await response2.json();
     this.totalStaff = data.count;
+    this.totalClients = data2.count;
   }
 };
 </script>
