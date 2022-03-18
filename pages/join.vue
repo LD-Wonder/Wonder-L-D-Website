@@ -6,16 +6,16 @@
   </main>
 </template>
 <script>
-  export default {
-    head() {
-      return {
-        meta: [
-          {
-            'http-equiv': 'Refresh',
-            content: "5; url='https://discord.gg/hdDABckHvM'"
-          }
-        ]
-      }
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          'http-equiv': 'Refresh',
+          content: "5; url='https://discord.gg/hdDABckHvM'",
+        },
+      ],
     }
-  }
+  },
+}
 </script>

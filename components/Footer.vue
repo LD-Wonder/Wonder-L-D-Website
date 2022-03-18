@@ -89,25 +89,25 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/about"
               >
                 About
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/staff"
               >
                 Meet the Team
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/about#history"
               >
                 History
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/staff/careers"
               >
                 Careers
               </a>
@@ -133,13 +133,13 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/contact"
               >
                 Contact
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/faq"
               >
                 FAQs
               </a>
@@ -152,19 +152,19 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/info#privacy"
               >
                 Privacy Policy
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/info#tos"
               >
                 Terms & Conditions
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/info/refund"
               >
                 Refund Policy
               </a>

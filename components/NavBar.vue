@@ -32,7 +32,7 @@
           </li>
           <li>
             <a
-              href="/"
+              href="/about"
               aria-label="About us"
               title="About us"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-violet-400"
@@ -41,7 +41,7 @@
           </li>
           <li>
             <a
-              href="/"
+              href="/staff/careers"
               aria-label="Apply For Staff"
               title="Apply For Staff"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-violet-400"
@@ -50,7 +50,7 @@
           </li>
           <li>
             <a
-              href="/"
+              href="/contact"
               aria-label="Contact us"
               title="Contact us"
               class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-violet-400"
@@ -142,7 +142,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/about"
                       aria-label="About us"
                       title="About us"
                       class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-400"
@@ -151,7 +151,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/staff/careers"
                       aria-label="Apply For Staff"
                       title="Apply For Staff"
                       class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-400"
@@ -160,7 +160,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/contact"
                       aria-label="Contact us"
                       title="Contact us"
                       class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-400"

@@ -11,7 +11,9 @@
           <span class="text-blue-500"> L & D</span>
         </h1>
 
-        <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
+        <p
+          class="max-w-xl mx-auto mt-4 font-medium sm:leading-relaxed sm:text-xl"
+        >
           Monke banana milk shake yumm!!!
         </p>
 

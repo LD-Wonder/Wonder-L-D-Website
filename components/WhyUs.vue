@@ -6,8 +6,8 @@
           class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last"
         >
           <img
-            class="absolute inset-0 object-cover h-full px-14 w-fit lg:object-fit"
-            src="https://media.discordapp.net/attachments/912173841927798794/951327316838084648/lantern_1.png"
+            class="absolute inset-0 object-cover h-full shadow-xl px-14 w-fit lg:object-fit"
+            src="https://media.discordapp.net/attachments/912173841927798794/951327316838084648/lantern_1.png "
             alt="The Lamp"
           />
         </div>
@@ -17,14 +17,14 @@
             Why Us?
           </h2>
 
-          <p class="mt-4 text-center text-gray-100 lg:text-left">
+          <p class="mt-4 font-medium text-center text-gray-100 lg:text-left">
             We provide amazing reliable, affordable and on time services so that
             you can enjoy a non scam product from other industries. Try us out
             and never regret it today!
           </p>
           <div class="flex flex-col items-center p-8 lg:items-start">
             <a
-              class="inline-flex px-8 py-3 mt-8 text-white bg-violet-600 border border-violet-600 rounded-full hover:bg-transparent hover:text-violet-600 active:text-violet-500 focus:outline-none focus:ring"
+              class="inline-flex px-8 py-3 mt-8 text-white border rounded-full bg-violet-600 border-violet-600 hover:bg-transparent hover:text-violet-600 active:text-violet-500 focus:outline-none focus:ring"
               href="/join"
             >
               <span class="text-sm font-medium">Join Now!</span>

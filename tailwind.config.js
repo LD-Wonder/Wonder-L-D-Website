@@ -7,9 +7,11 @@ module.exports = {
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
+    './node_modules/flowbite/**/*.js',
   ],
   theme: {
     extend: {
+      colors: {},
       fontFamily: {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
@@ -37,5 +39,5 @@ module.exports = {
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), require('flowbite/plugin')],
 }

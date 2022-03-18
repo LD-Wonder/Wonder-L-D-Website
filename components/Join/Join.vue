@@ -11,13 +11,16 @@
           <span class="text-blue-500"> L & D</span>
         </h1>
 
-        <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
+        <p
+          class="max-w-xl mx-auto mt-4 font-medium sm:leading-relaxed sm:text-xl"
+        >
           Redirecting you to our Discord Sever
         </p>
         <p
-          class="mx-auto mt-4 text-xs text-gray-400 max-w-s sm:leading-relaxed"
+          class="mx-auto mt-4 text-xs font-light text-gray-400 max-w-s sm:leading-relaxed"
         >
-          Redirecting in 5 Seconds.. Click Button below if Redirect doesn't work
+          Redirecting in {{ timerCount }} Seconds.. Click Button below if
+          Redirect doesn't work
         </p>
 
         <div class="flex flex-wrap justify-center gap-4 mt-8">
@@ -32,3 +35,25 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      timerCount: 5,
+    }
+  },
+
+  watch: {
+    timerCount: {
+      handler(value) {
+        if (value > 0) {
+          setTimeout(() => {
+            this.timerCount--
+          }, 1000)
+        }
+      },
+      immediate: true, // This ensures the watcher is triggered upon creation
+    },
+  },
+}
+</script>

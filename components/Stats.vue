@@ -17,7 +17,17 @@
     >
       <div class="grid grid-cols-2 row-gap-8 md:grid-cols-3">
         <div class="text-center md:border-r">
-          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">1.69k</h6>
+          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">
+            <client-only>
+              <number
+                :from="0"
+                :to="2569"
+                :duration="2"
+                :delay="0"
+                easing="Power1.easeOut"
+              ></number> </client-only
+            >+
+          </h6>
           <p
             class="text-sm font-medium tracking-widest text-whiteuppercase lg:text-base text-violet-400"
           >
@@ -25,15 +35,35 @@
           </p>
         </div>
         <div class="text-center md:border-r">
-          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">1.69K</h6>
+          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">
+            <client-only>
+              <number
+                :from="0"
+                :to="2569"
+                :duration="2"
+                :delay="0"
+                easing="Power1.easeOut"
+              ></number> </client-only
+            >+
+          </h6>
           <p
             class="text-sm font-medium tracking-widest text-whiteuppercase lg:text-base text-violet-400"
           >
-            Members
+            Total Customers
           </p>
         </div>
         <div class="text-center">
-          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">69+</h6>
+          <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">
+            <client-only>
+              <number
+                :from="0"
+                :to="69"
+                :duration="2"
+                :delay="0"
+                easing="Power1.easeOut"
+              ></number> </client-only
+            >+
+          </h6>
           <p
             class="text-sm font-medium tracking-widest text-whiteuppercase lg:text-base text-violet-400"
           >
