@@ -72,17 +72,17 @@ export default {
       const staff = await fetch(
         'https://adminportal.wadiscord.com/api/staff',
         headers
-      );
+      )
       const clients = await fetch(
         'https://adminportal.wadiscord.com/api/clients',
         headers
-      );
+      )
       const data = await staff.json()
       const data2 = await clients.json()
       this.totalStaff = data.count
       this.totalClients = data2.count
-    } catch {
-      return
+    } catch (e) {
+      return console.error(e)
     }
   },
 }
