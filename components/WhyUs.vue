@@ -22,28 +22,38 @@
             you can enjoy a non scam product from other industries. Try us out
             and never regret it today!
           </p>
-          <div class="flex flex-col items-center p-8 lg:items-start">
-            <a
-              class="inline-flex px-8 py-3 mt-8 text-white border rounded-full bg-violet-600 border-violet-600 hover:bg-transparent hover:text-violet-600 active:text-violet-500 focus:outline-none focus:ring"
-              href="/join"
-            >
-              <span class="text-sm font-medium">Join Now!</span>
 
-              <svg
-                class="w-5 h-5 ml-3 stroke-2"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+          <div class="max-w-3xl mx-auto text-center">
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+              <a
+                class="inline-flex block px-12 py-3 text-sm font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+                href="/join"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </a>
+                <span class="text-sm font-medium">Join Now!</span>
+
+                <svg
+                  class="w-5 h-5 ml-3 stroke-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+
+              <a
+                class="block px-12 py-3 text-sm font-medium text-white border rounded-full w-fit border-violet-600 sm:w-auto hover:bg-violet-600 active:bg-violet-500 focus:outline-none focus:ring"
+                href="/info/reviews"
+              >
+                Our Reviews
+              </a>
+            </div>
           </div>
         </div>
       </div>
