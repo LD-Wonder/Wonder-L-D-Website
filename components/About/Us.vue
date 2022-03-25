@@ -1,3 +1,3 @@
 <template>
-    <main id="About"></main>
+  <main id="About"></main>
 </template>

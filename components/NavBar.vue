@@ -44,7 +44,7 @@
               href="/staff/careers"
               aria-label="Apply For Staff"
               title="Apply For Staff"
-              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-violet-400"
+              class="font-medium tracking-wide text-gray-100 underline transition-colors duration-200 hover:no-underline underline-offset-2 decoration-2 decoration-violet-800 hover:text-violet-400"
               >Apply For Staff</a
             >
           </li>

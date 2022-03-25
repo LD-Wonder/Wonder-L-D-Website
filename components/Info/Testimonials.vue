@@ -12,28 +12,28 @@
           Read some reviews from our beloved customers!
         </p>
       </div>
-        <div
-          class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
-        >
-          <!-- -->
-          <div v-for="user in users" :key="user">
-            <img
-              :src="user.icon"
-              :alt="user.name"
-              class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
-            />
+      <div
+        class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
+      >
+        <!-- -->
+        <div v-for="user in users" :key="user">
+          <img
+            :src="user.icon"
+            :alt="user.name"
+            class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
+          />
 
-            <blockquote
-              class="flex flex-col justify-between p-12 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
-            >
-              <p class="text-lg font-bold text-gray-100">{{ user.name }}</p>
-              <p class="mt-1 text-xs font-medium text-gray-300">
-                {{ user.role }}
-              </p>
-              <p class="mt-4 text-white text-medium">{{ user.message }}</p>
-            </blockquote>
-          </div>
-          <!-- -->
+          <blockquote
+            class="flex flex-col justify-between p-12 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
+          >
+            <p class="text-lg font-bold text-gray-100">{{ user.name }}</p>
+            <p class="mt-1 text-xs font-medium text-gray-300">
+              {{ user.role }}
+            </p>
+            <p class="mt-4 text-white text-medium">{{ user.message }}</p>
+          </blockquote>
+        </div>
+        <!-- -->
       </div>
     </div>
   </section>
