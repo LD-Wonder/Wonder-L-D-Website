@@ -6,18 +6,18 @@
       <div class="relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="WA"
-          title="WA"
+          aria-label="RS"
+          title="RS"
           class="inline-flex items-center shadow-md"
         >
           <img
-            src="https://media.discordapp.net/attachments/774149413332844564/952222663298908200/image_2022-01-09_201828-modified.png"
+            src="https://imgs.mrfluffycloud.xyz/Logo-Bolt-Resized.png"
             class="w-8 text-violet-400"
             alt=""
           />
           <span
             class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase"
-            >WA</span
+            >RS</span
           >
         </a>
         <ul class="items-center hidden space-x-8 lg:flex">
@@ -98,18 +98,18 @@
                 <div>
                   <a
                     href="/"
-                    aria-label="WA"
-                    title="WA"
+                    aria-label="RS"
+                    title="RS"
                     class="inline-flex items-center"
                   >
                     <img
-                      src="https://media.discordapp.net/attachments/774149413332844564/952222663298908200/image_2022-01-09_201828-modified.png"
+                      src="https://imgs.mrfluffycloud.xyz/Logo-Bolt.png"
                       class="w-8 text-violet-400"
                       alt=""
                     />
                     <span
                       class="ml-2 text-xl font-bold tracking-wide text-white uppercase"
-                      >WA</span
+                      >RS</span
                     >
                   </a>
                 </div>

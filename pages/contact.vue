@@ -1,33 +1,33 @@
 <template>
   <main>
     <NavBar></NavBar>
-    <section class="bg-gray-100">
+    <section class="bg-gray-900">
       <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div class="lg:py-12 lg:col-span-2">
             <p class="max-w-xl text-lg">
-              At the same time, the fact that we are wholly owned and totally
-              independent from manufacturer and other group control gives you
-              confidence that we will only recommend what is right for you.
+              Got something to say to us? Got suggestions? Need Help? Contact us
+              then! You can either ask through our discord, or right from here!
             </p>
 
             <div class="mt-8">
-              <a href="" class="text-2xl font-bold text-pink-600">
-                0151 475 4450
+              <a
+                class="block px-12 py-3 text-sm font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-fit active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+                href="/join"
+              >
+                Support Server on Discord
               </a>
-
-              <address class="mt-2 not-italic">
-                282 Kevin Brook, Imogeneborough, CA 58517
-              </address>
             </div>
           </div>
 
-          <div class="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+          <div
+            class="p-8 bg-gray-800 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
+          >
             <form action="" class="space-y-4">
               <div>
-                <label class="sr-only" for="name">Name</label>
+                <label class="text-white sr-only" for="name">Name</label>
                 <input
-                  class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                  class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
                   placeholder="Name"
                   type="text"
                   id="name"
@@ -38,7 +38,7 @@
                 <div>
                   <label class="sr-only" for="email">Email</label>
                   <input
-                    class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                    class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
                     placeholder="Email address"
                     type="email"
                     id="email"
@@ -46,70 +46,20 @@
                 </div>
 
                 <div>
-                  <label class="sr-only" for="phone">Phone</label>
+                  <label class="sr-only" for="tag">Discord Tag</label>
                   <input
-                    class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                    placeholder="Phone Number"
+                    class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
+                    placeholder="Discord Tag"
                     type="tel"
-                    id="phone"
+                    id="tag"
                   />
-                </div>
-              </div>
-
-              <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
-                <div>
-                  <input
-                    class="sr-only"
-                    id="option1"
-                    type="radio"
-                    tabindex="-1"
-                  />
-                  <label
-                    for="option1"
-                    class="block w-full p-3 border border-gray-200 rounded-lg"
-                    tabindex="0"
-                  >
-                    <span class="text-sm font-medium"> Option 1 </span>
-                  </label>
-                </div>
-
-                <div>
-                  <input
-                    class="sr-only"
-                    id="option2"
-                    type="radio"
-                    tabindex="-1"
-                  />
-                  <label
-                    for="option2"
-                    class="block w-full p-3 border border-gray-200 rounded-lg"
-                    tabindex="0"
-                  >
-                    <span class="text-sm font-medium"> Option 2 </span>
-                  </label>
-                </div>
-
-                <div>
-                  <input
-                    class="sr-only"
-                    id="option3"
-                    type="radio"
-                    tabindex="-1"
-                  />
-                  <label
-                    for="option3"
-                    class="block w-full p-3 border border-gray-200 rounded-lg"
-                    tabindex="0"
-                  >
-                    <span class="text-sm font-medium"> Option 3 </span>
-                  </label>
                 </div>
               </div>
 
               <div>
                 <label class="sr-only" for="message">Message</label>
                 <textarea
-                  class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                  class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
                   placeholder="Message"
                   rows="8"
                   id="message"
@@ -119,7 +69,7 @@
               <div class="mt-4">
                 <button
                   type="submit"
-                  class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
+                  class="inline-flex items-center justify-center w-full px-5 py-3 font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
                 >
                   <span class="font-medium"> Send Enquiry </span>
 

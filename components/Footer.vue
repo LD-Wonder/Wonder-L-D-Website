@@ -5,7 +5,7 @@
         <div>
           <span class="flex content-center w-32 h-10 bg-gray-800 rounded-lg"
             ><img
-              src="https://media.discordapp.net/attachments/774149413332844564/952870060974813194/banner.png"
+              src="https://imgs.mrfluffycloud.xyz/Banner.png"
               class="self-center text-violet-400"
               alt=""
           /></span>

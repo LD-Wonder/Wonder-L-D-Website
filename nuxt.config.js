@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Wonder × L & D',
+    title: 'Rapid Services',
     htmlAttrs: {
       lang: 'en',
     },

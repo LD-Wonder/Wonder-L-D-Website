@@ -7,8 +7,8 @@
         >
           <img
             class="absolute inset-0 object-cover h-full shadow-xl px-14 w-fit lg:object-fit"
-            src="https://media.discordapp.net/attachments/912173841927798794/951327316838084648/lantern_1.png "
-            alt="The Lamp"
+            src="https://imgs.mrfluffycloud.xyz/Logo-Bolt-Resized.png"
+            alt=""
           />
         </div>
 
@@ -26,7 +26,7 @@
           <div class="max-w-3xl mx-auto text-center">
             <div class="flex flex-wrap justify-center gap-4 mt-8">
               <a
-                class="inline-flex block px-12 py-3 text-sm font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+                class="inline-flex px-12 py-3 text-sm font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
                 href="/join"
               >
                 <span class="text-sm font-medium">Join Now!</span>

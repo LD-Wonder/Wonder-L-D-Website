@@ -68,13 +68,12 @@ export default {
   },
   async created() {
     try {
-      const headers = { 'Content-Type': 'application/json' }
-      const staff = await fetch(
-        'https://adminportal.wadiscord.com/api/staff',
-        headers
-      )
+      const headers = {
+        Authorization: `token testtoken12345`,
+      }
+      const staff = await fetch('http://localhost:1274/users/staff', headers)
       const clients = await fetch(
-        'https://adminportal.wadiscord.com/api/clients',
+        'http://localhost:1274/users/clients',
         headers
       )
       const data = await staff.json()
