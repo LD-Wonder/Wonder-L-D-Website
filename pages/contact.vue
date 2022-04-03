@@ -22,8 +22,9 @@
 
           <div
             class="p-8 bg-gray-800 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
+            v-if="!sent"
           >
-            <form action="" class="space-y-4">
+            <form @submit="send" class="space-y-4">
               <div>
                 <label class="text-white sr-only" for="name">Name</label>
                 <input
@@ -31,6 +32,8 @@
                   placeholder="Name"
                   type="text"
                   id="name"
+                  autocomplete="off"
+                  v-model="content.name"
                 />
               </div>
 
@@ -42,6 +45,8 @@
                     placeholder="Email address"
                     type="email"
                     id="email"
+                    autocomplete="off"
+                    v-model="content.email"
                   />
                 </div>
 
@@ -52,6 +57,8 @@
                     placeholder="Discord Tag"
                     type="tel"
                     id="tag"
+                    autocomplete="off"
+                    v-model="content.tag"
                   />
                 </div>
               </div>
@@ -63,33 +70,62 @@
                   placeholder="Message"
                   rows="8"
                   id="message"
+                  autocomplete="off"
+                  v-model="content.message"
                 ></textarea>
               </div>
 
               <div class="mt-4">
                 <button
                   type="submit"
-                  class="inline-flex items-center justify-center w-full px-5 py-3 font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+                  class="inline-flex items-center justify-center px-5 py-3 font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
                 >
                   <span class="font-medium"> Send Enquiry </span>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5 ml-3"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    />
-                  </svg>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-5 h-5 ml-3"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
+                      />
+                    </svg>
+                  </span>
                 </button>
               </div>
             </form>
+          </div>
+          <div
+            v-if="sent"
+            class="p-8 bg-gray-800 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
+          >
+            <div class="alert shadow-lg">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="stroke-purple-700 flex-shrink-0 w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  ></path>
+                </svg>
+                <span
+                  >Sent! Please wait for your reply. either through your Email
+                  provided or Discord.</span
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -97,3 +133,30 @@
     <Footer></Footer>
   </main>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      sent: false,
+      content: {
+        name: null,
+        tag: null,
+        email: null,
+        message: null,
+      },
+    }
+  },
+  methods: {
+    send(e) {
+      console.log(this.content)
+      this.$axios
+        .$post('http://localhost:1274/api/contact', this.content)
+        .then((x) => {
+          this.sent = true
+        })
+      e.preventDefault()
+    },
+  },
+}
+</script>

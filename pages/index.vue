@@ -1,6 +1,12 @@
 <template>
   <main>
-    <div>
+    <NavBar> </NavBar>
+    <Hero> </Hero>
+    <Features> </Features>
+    <WhyUs> </WhyUs>
+    <Stats> </Stats>
+    <Footer> </Footer>
+    <div v-if="showModal">
       <t-modal v-model="showModal" header="STOCKTIPPERS">
         <b>STOCKTIPPERS</b> is all about financial independence where you can
         learn & earn everything Crypto, Sticks, Forex, Options Related!<br /><br /><span
@@ -28,12 +34,6 @@
         </template>
       </t-modal>
     </div>
-    <NavBar> </NavBar>
-    <Hero> </Hero>
-    <Features> </Features>
-    <WhyUs> </WhyUs>
-    <Stats> </Stats>
-    <Footer> </Footer>
   </main>
 </template>
 <script>

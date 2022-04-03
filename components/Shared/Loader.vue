@@ -1,0 +1,16 @@
+<template>
+  <div>
+    <loader
+      object="#4338ca"
+      color1="#ffffff"
+      color2="#17fd3d"
+      size="5"
+      speed="1.1"
+      bg="#111827"
+      objectbg="#999793"
+      opacity="100"
+      disableScrolling="true"
+      name="dots"
+    ></loader>
+  </div>
+</template>
