@@ -34,6 +34,10 @@ module.exports = {
     },
   },
   variants: {
+    extend: {
+      opacity: ['disabled'],
+      cursor: ['disabled'],
+    },
     scale: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
