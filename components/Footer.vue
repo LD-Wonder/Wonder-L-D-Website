@@ -16,14 +16,14 @@
           <div class="flex mt-8 space-x-6 text-gray-500">
             <a
               class="hover:opacity-75"
-              href="#"
+              href="https://www.instagram.com/rapidms/"
               target="_blank"
               rel="noreferrer"
             >
               <span class="sr-only"> Instagram </span>
 
               <svg
-                class="w-6 h-6 hover:fill-pink-400"
+                class="w-6 h-6 hover:fill-pink-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -38,14 +38,14 @@
 
             <a
               class="hover:opacity-75"
-              href="#"
+              href="https://twitter.com/WelcomeAdvert"
               target="_blank"
               rel="noreferrer"
             >
               <span class="sr-only"> Twitter </span>
 
               <svg
-                class="w-6 h-6 hover:fill-blue-400"
+                class="w-6 h-6 hover:fill-blue-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -58,14 +58,14 @@
 
             <a
               class="hover:opacity-75"
-              href="#"
+              href="https://github.com/MrFluffycloud"
               target="_blank"
               rel="noreferrer"
             >
               <span class="sr-only"> GitHub </span>
 
               <svg
-                class="w-6 h-6 hover:fill-purple-400"
+                class="w-6 h-6 hover:fill-purple-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"

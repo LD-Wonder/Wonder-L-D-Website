@@ -47,5 +47,6 @@ module.exports = {
     require('daisyui'),
     require('flowbite/plugin'),
     require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
   ],
 }
