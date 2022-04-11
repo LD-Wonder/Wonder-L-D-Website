@@ -11,7 +11,7 @@
         <b>STOCKTIPPERS</b> is all about financial independence where you can
         learn & earn everything Crypto, Sticks, Forex, Options Related!<br /><br /><span
           class="font-medium text-violet-300"
-          >Click View to Learn More!</span
+          >Click Visit to Learn More!</span
         >
         <template v-slot:footer>
           <div class="flex justify-between">
