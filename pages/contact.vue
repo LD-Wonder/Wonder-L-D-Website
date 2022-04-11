@@ -151,7 +151,7 @@ export default {
     send(e) {
       console.log(this.content)
       this.$axios
-        .$post('http://localhost:1274/api/contact', this.content)
+        .$post('https://api.rapidnetwork.co/api/contact', this.content)
         .then((x) => {
           this.sent = true
         })

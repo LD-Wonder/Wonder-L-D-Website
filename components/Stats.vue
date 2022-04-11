@@ -71,9 +71,9 @@ export default {
       const headers = {
         Authorization: `token testtoken12345`,
       }
-      const staff = await fetch('http://localhost:1274/users/staff', headers)
+      const staff = await fetch('https://api.rapidnetwork.co/users/staffCount', headers)
       const clients = await fetch(
-        'http://localhost:1274/users/clients',
+        'https://api.rapidnetwork.co/users/clients',
         headers
       )
       const data = await staff.json()
