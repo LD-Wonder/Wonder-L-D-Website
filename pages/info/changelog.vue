@@ -196,10 +196,19 @@ export default {
           content:
             'Change Logs of the website pages - Only for staff but available publicly. Check this page instead of asking MrFluffycloud for progress Updates',
         },
-        { name: 'og:title', content: 'Rapid Services | ChangeLogs' },
-        { name: 'og:site_name', content: 'Rapid Services | ChangeLogs' },
+        {
+          name: 'og:title',
+          hid: 'og:title',
+          content: 'Rapid Services | ChangeLogs',
+        },
+        {
+          name: 'og:site_name',
+          hid: 'og:site_name',
+          content: 'Rapid Services | ChangeLogs',
+        },
         {
           name: 'og:description',
+          hid: 'og:description',
           content:
             'Change Logs of the website pages - Only for staff but available publicly. Check this page instead of asking MrFluffycloud for progress Updates',
         },
