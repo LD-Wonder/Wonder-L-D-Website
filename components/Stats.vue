@@ -31,7 +31,7 @@
           <p
             class="text-sm font-medium tracking-widest text-whiteuppercase lg:text-base text-violet-400"
           >
-            Active Clients
+            Customers
           </p>
         </div>
         <div class="text-center">
