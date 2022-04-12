@@ -11,19 +11,21 @@
             class="block p-6 bg-gray-800 border rounded-lg shadow-md border-slate-800 hover:ring ring-offset-2 ring-offset-gray-900 hover:ring-purple-800"
           >
             <p class="mb-4 text-xl font-semibold">
-              Should I tell my parents I'm adopted?
+              How do I become a Staff Member?
             </p>
-            <p class="font-medium text-white">yes..</p>
+            <p class="font-medium text-white">
+              Fill out our staff form located in our discord server. or Check
+              <a href="/staff/careers">Our Careers Page</a>
+            </p>
           </div>
           <div
             id="2"
             class="block p-6 bg-gray-800 border rounded-lg shadow-md border-slate-800 hover:ring ring-offset-2 ring-offset-gray-900 hover:ring-purple-800"
           >
-            <p class="mb-4 text-xl font-semibold">
-              What happens if you do not show up to an interview?
-            </p>
+            <p class="mb-4 text-xl font-semibold">How can I be a Reseller?</p>
             <p class="font-medium text-white">
-              Well, i cant find an answer to that rn tbh...
+              DM our modmail in the discord server and our management will
+              handle it.
             </p>
           </div>
           <div
@@ -31,9 +33,11 @@
             class="block p-6 bg-gray-800 border rounded-lg shadow-md border-slate-800 hover:ring ring-offset-2 ring-offset-gray-900 hover:ring-purple-800"
           >
             <p class="mb-4 text-xl font-semibold">
-              Does it take 18 months for twins to be born? Or 9?
+              How to become a Partner or Affiliate?
             </p>
-            <p class="font-medium text-white">WAIT! HOLD MY BEER!</p>
+            <p class="font-medium text-white">
+              Message a partnership coordinator from our discord.
+            </p>
           </div>
         </div>
 
@@ -42,12 +46,9 @@
             id="4"
             class="block p-6 bg-gray-800 border rounded-lg shadow-md border-slate-800 hover:ring ring-offset-2 ring-offset-gray-900 hover:ring-purple-800"
           >
-            <p class="mb-4 text-xl font-semibold">
-              I swallowed an ice cube whole. Why haven’t I pooped it out?
-            </p>
+            <p class="mb-4 text-xl font-semibold">How do I invest at Rapid?</p>
             <p class="font-medium text-white">
-              cuz.. yk ice melts... it becomes water.... and ice is made out of
-              water...
+              DM us though our modmail and we shall help you out!
             </p>
           </div>
           <div
@@ -55,19 +56,24 @@
             class="block p-6 bg-gray-800 border rounded-lg shadow-md border-slate-800 hover:ring ring-offset-2 ring-offset-gray-900 hover:ring-purple-800"
           >
             <p class="mb-4 text-xl font-semibold">
-              How am I sure I’m the real mom of my kid?
+              How to become a part of the management at our server?
             </p>
-            <p class="font-medium text-white">DNA Test? maybe?</p>
+            <p class="font-medium text-white">
+              To become Management, you either must be in our Staff Team first
+              and might get handpicked. Or wait until public applications are
+              open.
+            </p>
           </div>
           <div
             id="6"
             class="block p-6 bg-gray-800 border rounded-lg shadow-md border-slate-800 hover:ring ring-offset-2 ring-offset-gray-900 hover:ring-purple-800"
           >
-            <p class="mb-4 text-xl font-semibold">
-              If I shave my golden retriever like a lion, will the other dogs
-              respect him more?
+            <p class="mb-4 text-xl font-semibold">How it works</p>
+            <p class="font-medium text-white">
+              Once you have paid for the Ad plan(s) you bought from us. We will
+              promote your Website/Social Media through different networks we
+              manage like Telegram, Discord, Twitter, Instagram and others.
             </p>
-            <p class="font-medium text-white">please dont.</p>
           </div>
         </div>
       </div>
