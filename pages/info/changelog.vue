@@ -56,7 +56,7 @@
                         class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                       >
                       </span>
-                      <span class="relative"> complete </span>
+                      <span class="relative"> Complete </span>
                     </span>
                   </td>
                 </tr>
@@ -85,7 +85,7 @@
                         class="absolute inset-0 bg-yellow-200 opacity-50 rounded-full"
                       >
                       </span>
-                      <span class="relative"> incomplete </span>
+                      <span class="relative"> Incomplete </span>
                     </span>
                   </td>
                 </tr>
