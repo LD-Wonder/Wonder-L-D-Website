@@ -41,7 +41,9 @@
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
                   >
-                    <p class="text-white whitespace-no-wrap">Added Senior Staff and Team Members using our API</p>
+                    <p class="text-white whitespace-no-wrap">
+                      Added Senior Staff and Team Members using our API
+                    </p>
                   </td>
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
@@ -67,7 +69,10 @@
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
                   >
-                    <p class="text-white whitespace-no-wrap">Page yet not created.. think about adding scroll check function to it..</p>
+                    <p class="text-white whitespace-no-wrap">
+                      Page yet not created.. think about adding scroll check
+                      function to it..
+                    </p>
                   </td>
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
@@ -93,7 +98,9 @@
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
                   >
-                    <p class="text-white whitespace-no-wrap">Add those new texts.. FAQ/ Policy/ Tos/ History/ Careers/</p>
+                    <p class="text-white whitespace-no-wrap">
+                      Add those new texts.. FAQ/ Policy/ Tos/ History/ Careers/
+                    </p>
                   </td>
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
@@ -136,6 +143,34 @@
                     </span>
                   </td>
                 </tr>
+                <tr>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <p class="text-white whitespace-no-wrap">NewsLetter</p>
+                  </td>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <p class="text-white whitespace-no-wrap">
+                      API for NewsLetter + add into homepage
+                    </p>
+                  </td>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <span
+                      class="relative inline-block px-3 py-1 font-semibold text-orange-700 leading-tight"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
+                      >
+                      </span>
+                      <span class="relative"> Pending </span>
+                    </span>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -145,3 +180,31 @@
     <Footer></Footer>
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Rapid Services | ChangeLogs',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Change Logs of the website pages - Only for staff but available publicly. Check this page instead of asking MrFluffycloud for progress Updates',
+        },
+        { name: 'og:title', content: 'Rapid Services | ChangeLogs' },
+        { name: 'og:site_name', content: 'Rapid Services | ChangeLogs' },
+        {
+          name: 'og:description',
+          content:
+            'Change Logs of the website pages - Only for staff but available publicly. Check this page instead of asking MrFluffycloud for progress Updates',
+        },
+      ],
+    }
+  },
+}
+</script>
