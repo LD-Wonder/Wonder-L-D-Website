@@ -64,6 +64,32 @@
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
                   >
+                    <p class="text-white whitespace-no-wrap">FAQ/</p>
+                  </td>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <p class="text-white whitespace-no-wrap">Updated</p>
+                  </td>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <span
+                      class="relative inline-block px-3 py-1 font-semibold text-green-700 leading-tight"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                      >
+                      </span>
+                      <span class="relative"> Complete </span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
                     <p class="text-white whitespace-no-wrap">Investing/</p>
                   </td>
                   <td
