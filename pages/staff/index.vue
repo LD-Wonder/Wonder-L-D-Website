@@ -1,7 +1,7 @@
 <template>
   <main>
     <NavBar></NavBar>
-    <SharedBlankHero></SharedBlankHero>
+    <StaffList></StaffList>
     <Footer></Footer>
   </main>
 </template>

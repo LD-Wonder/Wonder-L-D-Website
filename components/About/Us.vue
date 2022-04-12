@@ -167,9 +167,15 @@
                       </svg>
                     </a>
                   </div>
-                  <div class="flex-1 pl-1 md:mr-16">
+                  <div class="flex-1 pl-1 md:mr-16 text-center">
                     <div class="font-medium text-white">Rapid Services</div>
                     <div class="text-gray-200 text-sm">Discord</div>
+                    <a
+                      class="block items-center w-1/2 text-center m-2 text-sm font-medium text-white border rounded-full bg-violet-600 border-violet-600 active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+                      href="/join"
+                    >
+                      Join Now!
+                    </a>
                   </div>
                 </div>
               </li>
