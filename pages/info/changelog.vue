@@ -36,6 +36,39 @@
                   <td
                     class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
                   >
+                    <p class="text-white whitespace-no-wrap">
+                      TopBar + Only Once every 2 day alert
+                    </p>
+                  </td>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <p class="text-white whitespace-no-wrap">
+                      Current Set the TopBar to SupportUkraine for now.. maybe
+                      we can set it for new news and stuff || The STOCKTIPPERS
+                      alert only shows every 2 days now.. no more spam everytime
+                      the page loads
+                    </p>
+                  </td>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
+                    <span
+                      class="relative inline-block px-3 py-1 font-semibold text-green-700 leading-tight"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                      >
+                      </span>
+                      <span class="relative"> Complete </span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                  >
                     <p class="text-white whitespace-no-wrap">Staff/</p>
                   </td>
                   <td

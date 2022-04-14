@@ -1,5 +1,6 @@
 <template>
   <main>
+    <SharedTopBar></SharedTopBar>
     <NavBar> </NavBar>
     <Hero> </Hero>
     <Features> </Features>
@@ -45,7 +46,11 @@ export default {
   },
   mounted() {
     setTimeout(() => {
-      this.showModal = true
+      let sent = localStorage.getItem('modal')
+      if (!sent || Date.now() >= sent) {
+        this.showModal = true
+        localStorage.setItem('modal', Date.now() + 172800000)
+      }
     }, 5000)
   },
 }

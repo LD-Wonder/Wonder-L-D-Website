@@ -1,5 +1,10 @@
 <template>
   <div>
+    <TopBar></TopBar>
+        <NavBar></NavBar>
+    <AboutHero></AboutHero>
+    <AboutUs></AboutUs>
+    <Footer></Footer>
     <t-modal v-model="showModal" header="Title of the modal">
       Content of the modal.
       <template v-slot:footer>
@@ -26,7 +31,9 @@
 </template>
 
 <script>
+import TopBar from '../components/Shared/TopBar.vue'
 export default {
+  components: { TopBar },
   data() {
     return {
       showModal: false,
