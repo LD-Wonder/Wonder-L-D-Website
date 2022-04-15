@@ -25,6 +25,22 @@
             having 2FA Enabled. Please take your time. Application may take up
             to 24 Hours to review. Do not Apply more than Once a Week!!
           </p>
+          <div class="grid grid-cols-1 gap-3 m-2 md:m-4 md:grid-cols-2">
+            <div class="w-auto card bg-neutral text-neutral-content">
+              <div class="items-center text-center card-body">
+                <h2 class="card-title">Application Requirements:</h2>
+                <p>
+                  ・Must have 2FA Enabled if you want to apply for Moderation,
+                  Management, or Human Resource.<br />
+                  ・Must be 14+ Years Old or older.<br />
+                  ・Must not Work in more than 2 Other Servers/Companies.<br />
+                  ・Account must be 6 Months Old or older.<br />
+                  ・Must be able to Join Staff Server.<br />
+                  ・Must be active on daily basis.
+                </p>
+              </div>
+            </div>
+          </div>
           <div v-if="count == 0" class="flex flex-wrap justify-center">
             <a href="#start">
               <button
