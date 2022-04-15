@@ -288,51 +288,8 @@ export default {
   methods: {
     send(e) {
       this.sent = true
-      let embeds = [
-        {
-          title: 'RM-S Services | Discord Server Staff Application',
-          color: '#7c3aed',
-          fields: [
-            {
-              name: 'Username + ID',
-              value: `${this.content.username} | ${this.content.id}`,
-            },
-            {
-              name: 'Age',
-              value: `${this.content.age}`,
-            },
-
-            {
-              name: 'Timezone',
-              value: `${this.content.timezone}`,
-            },
-            {
-              name: 'Hours To be Spent per Week',
-              value: `${this.content.hoursperweek}`,
-            },
-            {
-              name: 'Why Them?',
-              value: `${this.content.whyu}`,
-            },
-
-            {
-              name: 'Past Experiences',
-              value: `${this.content.pastexp}`,
-            },
-            {
-              name: 'Strengths & Weaknesses',
-              value: `${this.content.sw}`,
-            },
-            {
-              name: 'English Fluencey',
-              value: `${this.content.range || '3'}`,
-            },
-          ],
-        },
-      ]
-      let data = JSON.stringify({ embeds })
       this.$axios
-        .$post('https://api.rapidnetwork.co/api/staffForm', data)
+        .$post('https://api.rapidnetwork.co/api/staffForm', this.content)
         .then((x) => {
           this.sent = true
         })
