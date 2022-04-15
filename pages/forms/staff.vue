@@ -287,12 +287,10 @@ export default {
   },
   methods: {
     send(e) {
-      console.log(this.content)
       this.sent = true
-      this.content
       let embeds = [
         {
-          title: 'RM&S Services | Discord Server Staff Application',
+          title: 'RM-S Services | Discord Server Staff Application',
           color: '#7c3aed',
           fields: [
             {
@@ -333,19 +331,10 @@ export default {
         },
       ]
       let data = JSON.stringify({ embeds })
-      console.log(data)
-      let config = {
-        method: 'POST',
-        url: 'https://discord.com/api/webhooks/964445127806431252/VgPOBvCG5xGMN3rlGtzhd0KGVt-KrmDASc0sV5wSMCQzmBXU5TaWxiiPAbFe612DdBEV',
-        headers: { 'Content-Type': 'application/json' },
-        data: data,
-      }
-      this.$axios(config)
+      this.$axios
+        .$post('https://api.rapidnetwork.co/api/staffForm', data)
         .then((x) => {
           this.sent = true
-        })
-        .catch((error) => {
-          console.log(error)
         })
       e.preventDefault()
     },
