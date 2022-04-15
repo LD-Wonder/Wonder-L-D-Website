@@ -25,7 +25,7 @@
             having 2FA Enabled. Please take your time. Application may take up
             to 24 Hours to review. Do not Apply more than Once a Week!!
           </p>
-          <div class="grid grid-cols-1 gap-3 m-2 md:m-4 md:grid-cols-2">
+          <div class="grid grid-cols-1 gap-3 m-2 md:m-4 md:grid-cols-1">
             <div class="w-auto card bg-neutral text-neutral-content">
               <div class="items-center text-center card-body">
                 <h2 class="card-title">Application Requirements:</h2>
