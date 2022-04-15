@@ -3,9 +3,7 @@
     v-if="modes.ukraine && !hide"
     class="relative px-4 py-3 text-white rounded-md bg-[linear-gradient(180deg,_#005BBB_50%,_#FFD500_50%)] pr-14"
   >
-    <p
-      class="text-sm font-semibold text-center bg-gray-900 rounded-md"
-    >
+    <p class="text-sm font-semibold text-center bg-gray-900 rounded-md">
       #WeStandWithUkraine
 
       <a class="underline" href="/alpinejs"> Support Ukraine Here &rarr; </a>

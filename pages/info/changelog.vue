@@ -2,30 +2,30 @@
   <main>
     <NavBar></NavBar>
 
-    <div class="container mx-auto px-4 sm:px-8 max-w-3xl">
+    <div class="container max-w-3xl px-4 mx-auto sm:px-8">
       <div class="py-8">
-        <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+        <div class="px-4 py-4 -mx-4 overflow-x-auto sm:-mx-8 sm:px-8">
           <div
-            class="inline-block min-w-full shadow rounded-lg overflow-hidden"
+            class="inline-block min-w-full overflow-hidden rounded-lg shadow"
           >
             <table class="min-w-full leading-normal">
               <thead>
                 <tr>
                   <th
                     scope="col"
-                    class="px-5 py-3 bg-gray-800 border-b border-gray-700 text-white text-left text-sm uppercase font-normal"
+                    class="px-5 py-3 text-sm font-normal text-left text-white uppercase bg-gray-800 border-b border-gray-700"
                   >
                     Page
                   </th>
                   <th
                     scope="col"
-                    class="px-5 py-3 bg-gray-800 border-b border-gray-700 text-white text-left text-sm uppercase font-normal"
+                    class="px-5 py-3 text-sm font-normal text-left text-white uppercase bg-gray-800 border-b border-gray-700"
                   >
                     Info
                   </th>
                   <th
                     scope="col"
-                    class="px-5 py-3 bg-gray-800 border-b border-gray-700 text-white text-left text-sm uppercase font-normal"
+                    class="px-5 py-3 text-sm font-normal text-left text-white uppercase bg-gray-800 border-b border-gray-700"
                   >
                     status
                   </th>
@@ -34,14 +34,40 @@
               <tbody>
                 <tr>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
+                  >
+                    <p class="text-white whitespace-no-wrap">Forms</p>
+                  </td>
+                  <td
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
+                  >
+                    <p class="text-white whitespace-no-wrap">Staff Forms</p>
+                  </td>
+                  <td
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
+                  >
+                    <span
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-700"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="absolute inset-0 bg-green-200 rounded-full opacity-50"
+                      >
+                      </span>
+                      <span class="relative"> Complete </span>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
                       TopBar + Only Once every 2 day alert
                     </p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
                       Current Set the TopBar to SupportUkraine for now.. maybe
@@ -51,42 +77,43 @@
                     </p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold text-green-700 leading-tight"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                        class="absolute inset-0 bg-green-200 rounded-full opacity-50"
                       >
                       </span>
                       <span class="relative"> Complete </span>
                     </span>
                   </td>
                 </tr>
+
                 <tr>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">Staff/</p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
                       Added Senior Staff and Team Members using our API
                     </p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold text-green-700 leading-tight"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                        class="absolute inset-0 bg-green-200 rounded-full opacity-50"
                       >
                       </span>
                       <span class="relative"> Complete </span>
@@ -95,24 +122,24 @@
                 </tr>
                 <tr>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">FAQ/</p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">Updated</p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold text-green-700 leading-tight"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                        class="absolute inset-0 bg-green-200 rounded-full opacity-50"
                       >
                       </span>
                       <span class="relative"> Complete </span>
@@ -121,12 +148,12 @@
                 </tr>
                 <tr>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">Investing/</p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
                       Page yet not created.. think about adding scroll check
@@ -134,14 +161,14 @@
                     </p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold text-yellow-700 leading-tight"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-yellow-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-yellow-200 opacity-50 rounded-full"
+                        class="absolute inset-0 bg-yellow-200 rounded-full opacity-50"
                       >
                       </span>
                       <span class="relative"> Incomplete </span>
@@ -150,80 +177,55 @@
                 </tr>
                 <tr>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">Others</p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
                       Add those new texts.. FAQ/ Policy/ Tos/ History/ Careers/
                     </p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold text-orange-700 leading-tight"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-orange-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
+                        class="absolute inset-0 bg-orange-200 rounded-full opacity-50"
                       >
                       </span>
                       <span class="relative"> Pending </span>
                     </span>
                   </td>
                 </tr>
+
                 <tr>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
-                  >
-                    <p class="text-white whitespace-no-wrap">Forms</p>
-                  </td>
-                  <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
-                  >
-                    <p class="text-white whitespace-no-wrap">Staff Forms</p>
-                  </td>
-                  <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
-                  >
-                    <span
-                      class="relative inline-block px-3 py-1 font-semibold text-orange-700 leading-tight"
-                    >
-                      <span
-                        aria-hidden="true"
-                        class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
-                      >
-                      </span>
-                      <span class="relative"> Pending </span>
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">NewsLetter</p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
                       API for NewsLetter + add into homepage
                     </p>
                   </td>
                   <td
-                    class="px-5 py-5 border-b border-gray-700 bg-gray-800 text-sm"
+                    class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold text-orange-700 leading-tight"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-orange-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
+                        class="absolute inset-0 bg-orange-200 rounded-full opacity-50"
                       >
                       </span>
                       <span class="relative"> Pending </span>
