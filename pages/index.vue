@@ -16,6 +16,7 @@
         >
         <template v-slot:footer>
           <div class="flex justify-between">
+            <a href="/promo/STOCKTIPPERS">
             <t-button type="button">
               <svg
                 class="-ml-0.5 mr-2 h-4 w-4"
@@ -31,6 +32,7 @@
                 ></path></svg
               >Visit
             </t-button>
+            </a>
           </div>
         </template>
       </t-modal>

@@ -150,28 +150,27 @@
                   <td
                     class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
-                    <p class="text-white whitespace-no-wrap">Investing/</p>
+                    <p class="text-white whitespace-no-wrap">promo/STOCKTIPPERS</p>
                   </td>
                   <td
                     class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <p class="text-white whitespace-no-wrap">
-                      Page yet not created.. think about adding scroll check
-                      function to it..
+                      Page Done!
                     </p>
                   </td>
                   <td
                     class="px-5 py-5 text-sm bg-gray-800 border-b border-gray-700"
                   >
                     <span
-                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-yellow-700"
+                      class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-700"
                     >
                       <span
                         aria-hidden="true"
-                        class="absolute inset-0 bg-yellow-200 rounded-full opacity-50"
+                        class="absolute inset-0 bg-green-200 rounded-full opacity-50"
                       >
                       </span>
-                      <span class="relative"> Incomplete </span>
+                      <span class="relative"> Complete </span>
                     </span>
                   </td>
                 </tr>

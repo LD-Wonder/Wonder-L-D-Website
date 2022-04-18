@@ -1,46 +1,19 @@
 <template>
-  <div style="margin: 0; height: 100%">
-    <div class="pt-10 sm:pt-20 md:pt-24">
-      <!-- Features grid header -->
-      <div class="text-center">
-        <p
-          v-if="error.statusCode === 404"
-          class="mb-2 text-2xl font-semibold text-white font-general-semibold sm:text-5xl"
-        >
-          Page not found
-        </p>
-        <p
-          v-else
-          class="mb-2 text-2xl font-semibold text-white font-general-semibold sm:text-5xl"
-        >
-          An error occurred
-        </p>
-        <br />
-        <div
-          class="flex flex-col items-center justify-center pt-3 border-t-2 font-general-regular sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark"
-        >
-          <a href="/">
-            <button
-              class="block px-4 py-2 mt-2 text-left text-white rounded-md shadow-sm text-md bg-violet-500 hover:bg-violet-600"
-              aria-label="Back Home Button"
-            >
-              Back Home?
-            </button></a
-          >
-        </div>
-      </div>
-    </div>
-    <div class="px-0 align-bottom" style="margin: 100">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          class="fill-violet-800"
-          fill-opacity="1"
-          d="M0,96L48,122.7C96,149,192,203,288,224C384,245,480,235,576,202.7C672,171,768,117,864,128C960,139,1056,213,1152,256C1248,299,1344,309,1392,314.7L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </div>
-  </div>
+	<section class="flex items-center h-full sm:p-16 bg-gray-900 text-gray-100">
+		<div class="container flex flex-col items-center justify-center px-5 mx-auto my-8 space-y-8 text-center sm:max-w-md">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-40 h-40 text-gray-600">
+				<path fill="currentColor" d="M256,16C123.452,16,16,123.452,16,256S123.452,496,256,496,496,388.548,496,256,388.548,16,256,16ZM403.078,403.078a207.253,207.253,0,1,1,44.589-66.125A207.332,207.332,0,0,1,403.078,403.078Z"></path>
+				<rect width="176" height="32" x="168" y="320" fill="currentColor"></rect>
+				<polygon fill="currentColor" points="210.63 228.042 186.588 206.671 207.958 182.63 184.042 161.37 162.671 185.412 138.63 164.042 117.37 187.958 141.412 209.329 120.042 233.37 143.958 254.63 165.329 230.588 189.37 251.958 210.63 228.042"></polygon>
+				<polygon fill="currentColor" points="383.958 182.63 360.042 161.37 338.671 185.412 314.63 164.042 293.37 187.958 317.412 209.329 296.042 233.37 319.958 254.63 341.329 230.588 365.37 251.958 386.63 228.042 362.588 206.671 383.958 182.63"></polygon>
+			</svg>
+			<p class="text-3xl" v-if="error.statusCode === 404">404. Page Not Found</p>
+			<p class="text-3xl" v-else>Looks like our services are currently offline</p>
+			<a rel="noopener noreferrer" href="/" class="px-8 py-3 font-semibold rounded bg-purple-400 text-gray-900">Back to homepage</a>
+		</div>
+	</section>
 </template>
+
 
 <script>
 export default {

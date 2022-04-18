@@ -6,7 +6,7 @@
     <p class="text-sm font-semibold text-center bg-gray-900 rounded-md">
       #WeStandWithUkraine
 
-      <a class="underline" href="/alpinejs"> Support Ukraine Here &rarr; </a>
+      <a class="underline" href="/ukraine"> Support Ukraine Here &rarr; </a>
     </p>
 
     <button
@@ -36,7 +36,8 @@ export default {
     return {
       hide: false,
       modes: {
-        ukraine: true,
+        ukraine: false,
+        staff: true
       },
     }
   },
