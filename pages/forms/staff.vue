@@ -1,18 +1,30 @@
 <template>
   <div>
-    <header class="p-4 text-gray-100 bg-gray-800">
-      <div
-        class="container flex justify-start h-16 mx-auto md:justify-start md:space-x-8"
-      >
-        <progress
-          v-if="count <= 10"
-          class="w-full progress progress-primary"
-          max="10"
-        ></progress>
+    <header class="p-4 text-gray-100 bg-gray-900">
+      <div class="navbar">
+        <div class="navbar-start">
+          <empty></empty>
+        </div>
+        <div class="navbar-center">
+          <div class="avatar">
+            <div class="w-10 rounded-full">
+              <a href="/"
+                ><img
+                  src="https://imgs.mrfluffycloud.xyz/Logo-Bolt-Resized.png"
+              /></a>
+            </div>
+          </div>
+          <a class="mx-4 text-xl normal-case btn btn-ghost" href="/"
+            >Rapid Services</a
+          >
+        </div>
+        <div class="navbar-end">
+          <empty></empty>
+        </div>
       </div>
     </header>
     <div>
-      <section class="text-gray-100 bg-gray-800">
+      <section class="text-gray-100 bg-gray-900">
         <div
           class="container flex flex-col items-center px-4 py-16 mx-auto text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl"
         >
@@ -26,7 +38,7 @@
             to 24 Hours to review. Do not Apply more than Once a Week!!
           </p>
           <div class="grid grid-cols-1 gap-3 m-2 md:m-4 md:grid-cols-1">
-            <div class="w-auto card bg-neutral text-neutral-content">
+            <div class="w-auto bg-gray-800 card text-neutral-content">
               <div class="items-center text-center card-body">
                 <h2 class="card-title">Application Requirements:</h2>
                 <p>
@@ -53,7 +65,7 @@
           </div>
           <div
             v-if="sent"
-            class="p-8 bg-gray-800 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
+            class="p-8 bg-gray-900 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
           >
             <div class="shadow-lg alert">
               <div>
@@ -81,13 +93,13 @@
       </section>
     </div>
     <div v-if="count >= 1 && !sent">
-      <section class="p-6 bg-gray-800 text-gray-50">
+      <section class="p-6 bg-gray-900 text-gray-50">
         <form
           @submit="send"
           class="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid"
         >
           <fieldset
-            class="grid grid-cols-4 gap-6 p-6 bg-gray-900 rounded-md shadow-sm"
+            class="grid grid-cols-4 gap-6 p-6 bg-gray-800 rounded-md shadow-sm"
             id="start"
           >
             <div class="space-y-2 col-span-full lg:col-span-1">
@@ -105,7 +117,7 @@
                   required
                   placeholder="Username"
                   v-model="content.username"
-                  class="w-full text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -118,7 +130,7 @@
                   required
                   placeholder="ID"
                   v-model="content.id"
-                  class="w-full text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -132,7 +144,7 @@
                   required
                   placeholder="Age"
                   v-model="content.age"
-                  class="w-full text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -145,13 +157,13 @@
                   required
                   v-model="content.timezone"
                   placeholder="Timezone"
-                  class="w-full text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
             </div>
           </fieldset>
           <fieldset
-            class="grid grid-cols-4 gap-6 p-6 bg-gray-900 rounded-md shadow-sm"
+            class="grid grid-cols-4 gap-6 p-6 bg-gray-800 rounded-md shadow-sm"
             id="1"
           >
             <div class="space-y-2 col-span-full lg:col-span-1">
@@ -169,7 +181,7 @@
                   required
                   placeholder="8 - 48 Hours"
                   v-model="content.hoursperweek"
-                  class="w-full text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -182,7 +194,7 @@
                   required
                   v-model="content.whyu"
                   placeholder="Why You??"
-                  class="w-full text-white border-gray-700 rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -196,7 +208,7 @@
                   required
                   placeholder="Past Experiences"
                   v-model="content.pastexp"
-                  class="w-full text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
 
@@ -219,12 +231,12 @@
                 >
                 <input
                   type="range"
-                  min="0"
-                  max="100"
+                  min="1"
+                  max="5"
                   required
-                  value="25"
+                  value="5"
                   class="range"
-                  step="25"
+                  step="1"
                   v-model="content.range"
                 />
                 <div class="flex justify-between w-full px-2 text-xs">

@@ -33,7 +33,7 @@
               class="px-4 py-5 sm:px-6 w-fit border-gray-700 mb-6 bg-gray-800 shadow-md rounded-md"
             >
               <h3 class="text-lg leading-6 font-medium text-white">
-                Contacts:
+                Contacts Us!
               </h3>
             </div>
             <ul class="flex flex-col">
@@ -76,7 +76,8 @@
                   </div>
                 </a>
               </li>
-              <li class="border-gray-400 flex flex-row mb-2">
+              <a href="https://twitter.com/WelcomeAdvert"
+                      target="_blank" class="border-gray-400 flex flex-row mb-2">
                 <div
                   class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-gray-800 rounded-md flex flex-1 items-center p-4"
                 >
@@ -105,8 +106,9 @@
                     <div class="text-gray-200 text-sm">Twitter</div>
                   </div>
                 </div>
-              </li>
-              <li class="border-gray-400 flex flex-row mb-2">
+              </a>
+              <a class="border-gray-400 flex flex-row mb-2" href="https://www.instagram.com/rapidms/"
+                      target="_blank">
                 <div
                   class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-gray-800 rounded-md flex flex-1 items-center p-4"
                 >
@@ -137,8 +139,8 @@
                     <div class="text-gray-200 text-sm">Instagram</div>
                   </div>
                 </div>
-              </li>
-              <li class="border-gray-400 flex flex-row mb-2">
+              </a>
+              <a href="/join" target="_blank"  class="border-gray-400 flex flex-row mb-2">
                 <div
                   class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-gray-800 rounded-md flex flex-1 items-center p-4"
                 >
@@ -170,15 +172,10 @@
                   <div class="flex-1 pl-1 md:mr-16 text-center">
                     <div class="font-medium text-white">Rapid Services</div>
                     <div class="text-gray-200 text-sm">Discord</div>
-                    <a
-                      class="block items-center w-1/2 text-center m-2 text-sm font-medium text-white border rounded-full bg-violet-600 border-violet-600 active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
-                      href="/join"
-                    >
-                      Join Now!
-                    </a>
+                    
                   </div>
                 </div>
-              </li>
+              </a>
             </ul>
           </div>
         </div>
