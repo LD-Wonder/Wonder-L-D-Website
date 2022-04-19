@@ -50,4 +50,14 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
+  daisyui: {
+    themes: [
+      {
+        forest: {
+          ...require('daisyui/src/colors/themes')['[data-theme=forest]'],
+          secondary: '#0284c7',
+        },
+      },
+    ],
+  },
 }

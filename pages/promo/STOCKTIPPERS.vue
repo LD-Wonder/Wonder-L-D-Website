@@ -197,9 +197,10 @@
         </li>
       </ul>
     </div>
-    <section class="my-8 bg-coolGray-800 text-coolGray-100">
+    <section class="my-8 bg-base-100 text-base-content">
       <div
         class="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12"
+        data-aos="fade-up"
       >
         <h1 class="p-4 text-4xl font-semibold leading-none text-center">
           Become a Professional Trader/Investor today! Click the link below to
@@ -209,9 +210,9 @@
       <div
         class="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10"
       >
-        <div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+        <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
           <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-            <div class="card w-96 bg-base-300 shadow-xl">
+            <div class="card w-full lg:w-96 bg-base-300 shadow-xl">
               <div class="card-body">
                 <h2 class="card-title">Link</h2>
                 <p>To: Upgrade.chat</p>
@@ -227,9 +228,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+        <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
           <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-            <div class="card w-96 bg-base-300 shadow-xl">
+            <div class="card w-full lg:w-96 bg-base-300 shadow-xl">
               <div class="card-body">
                 <h2 class="card-title">Support Server</h2>
                 <p>Redirects you to the Discord Server!</p>
@@ -245,9 +246,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+        <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
           <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-            <div class="card w-96 bg-base-300 shadow-xl">
+            <div class="card w-full lg:w-96 bg-base-300 shadow-xl">
               <div class="card-body">
                 <h2 class="card-title">Check out Benefits!</h2>
                 <p>Read more about the Benefits!</p>
@@ -265,9 +266,9 @@
         </div>
       </div>
     </section>
-    <footer class="dark:dark:bg-coolGray-800 dark:dark:text-coolGray-50">
+    <footer class="bg-base-100 text-base-50">
       <div
-        class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-coolGray-400"
+        class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400"
       >
         <ul
           class="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start"
