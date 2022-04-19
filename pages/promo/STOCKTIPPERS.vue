@@ -7,14 +7,14 @@
       <div class="navbar-center">
         <div class="avatar">
           <div
-            class="w-10 rounded-full ring-emerald-600 ring ring-offset-base-100 ring-offset-2"
+            class="w-10 rounded-full ring-primary ring ring-offset-base-100 ring-offset-2"
           >
             <a href="/"
               ><img src="https://imgs.mrfluffycloud.xyz/Logo-Bolt-Resized.png"
             /></a>
           </div>
         </div>
-        <a class="btn btn-ghost mx-4 normal-case text-xl" href="/"
+        <a class="mx-4 text-xl normal-case btn btn-ghost" href="/"
           >Rapid Services</a
         >
       </div>
@@ -39,7 +39,7 @@
 
           <div class="flex flex-wrap justify-center gap-4 mt-8">
             <a
-              class="btn btn-primary btn-outline block w-auto px-12 py-3 text-sm text-white hover:text-neutral font-semibold"
+              class="block w-auto px-12 py-3 text-sm font-semibold text-white btn btn-primary btn-outline hover:text-neutral"
               href="#ReadMore"
             >
               Learn More
@@ -58,18 +58,18 @@
             background-repeat: no-repeat;
             background-size: contain;
           "
-        >STOCKTIPPERS</div>
+        ></div>
         <div class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12">
           <p class="mt-4 mb-8 text-sm">
             We supply the tools, resources and community that can be essential
-            in becoming succesful in the market and life. The traders have their
+            in becoming successful in the market and life. The traders have their
             own rooms where they can chat during trading hours for our premium
             members, to watch and learn from the group of experience traders.
           </p>
 
           <a
             href="#Premium"
-            class="lg:self-start self-center px-10 py-3 text-lg font-semibold btn btn-primary btn-outline text-base-100"
+            class="self-center px-10 py-3 text-lg font-semibold lg:self-start btn btn-primary btn-outline text-base-100"
           >
             Our Premium Services
           </a>
@@ -212,11 +212,11 @@
       >
         <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
           <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-            <div class="card w-full lg:w-96 bg-base-300 shadow-xl">
+            <div class="w-full shadow-xl card lg:w-96 bg-base-300">
               <div class="card-body">
                 <h2 class="card-title">Link</h2>
                 <p>To: Upgrade.chat</p>
-                <div class="card-actions justify-end">
+                <div class="justify-end card-actions">
                   <a
                     href="https://upgrade.chat/895738246959620116?referralCode=706908975907471362"
                     target="_blank"
@@ -230,11 +230,11 @@
         </div>
         <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
           <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-            <div class="card w-full lg:w-96 bg-base-300 shadow-xl">
+            <div class="w-full shadow-xl card lg:w-96 bg-base-300">
               <div class="card-body">
                 <h2 class="card-title">Support Server</h2>
                 <p>Redirects you to the Discord Server!</p>
-                <div class="card-actions justify-end">
+                <div class="justify-end card-actions">
                   <a
                     href="https://discord.gg/QU3qebNSBz"
                     target="_blank"
@@ -248,11 +248,11 @@
         </div>
         <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
           <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-            <div class="card w-full lg:w-96 bg-base-300 shadow-xl">
+            <div class="w-full shadow-xl card lg:w-96 bg-base-300">
               <div class="card-body">
                 <h2 class="card-title">Check out Benefits!</h2>
                 <p>Read more about the Benefits!</p>
-                <div class="card-actions justify-end">
+                <div class="justify-end card-actions">
                   <a
                     href="https://discord.com/channels/895738246959620116/898229612495110194/923246864432766976"
                     target="_blank"
@@ -268,7 +268,7 @@
     </section>
     <footer class="bg-base-100 text-base-50">
       <div
-        class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400"
+        class="container flex flex-col p-4 mx-auto divide-gray-400 md:p-8 lg:flex-row"
       >
         <ul
           class="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start"
