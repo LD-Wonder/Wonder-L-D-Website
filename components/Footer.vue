@@ -5,7 +5,7 @@
         <div>
           <span class="flex content-center w-32 h-10 bg-gray-800 rounded-lg"
             ><img
-              src="https://imgs.mrfluffycloud.xyz/Banner.png"
+              src="https://imgs.mrfluffycloud.xyz/RapidXMercurials.png"
               class="self-center text-violet-400"
               alt=""
           /></span>
