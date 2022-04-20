@@ -27,7 +27,7 @@
             class="flex flex-col justify-between p-12 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
           >
             <p class="text-lg font-bold text-gray-100">{{ user.name }}</p>
-            <p class="mt-1 text-xs font-medium text-gray-300">
+            <p v-if="user.role" class="mt-1 text-xs font-medium text-gray-300">
               {{ user.role }}
             </p>
             <p class="mt-4 text-white text-medium">{{ user.message }}</p>
@@ -43,32 +43,17 @@
 export default {
   data() {
     return {
-      users: [
-        {
-          name: '! AB#2022',
-          icon: 'https://cdn.discordapp.com/avatars/706908975907471362/5ce69325ebac79e752f0c2043f95ab05.png',
-          role: 'Owner of Wonder',
-          message: 'WE COOl yk',
-        },
-        {
-          name: '! AB#2022',
-          icon: 'https://cdn.discordapp.com/avatars/706908975907471362/5ce69325ebac79e752f0c2043f95ab05.png',
-          role: 'Owner of Wonder',
-          message: 'WE COOl yk',
-        },
-        {
-          name: '! AB#2022',
-          icon: 'https://cdn.discordapp.com/avatars/706908975907471362/5ce69325ebac79e752f0c2043f95ab05.png',
-          role: 'Owner of Wonder',
-          message: 'WE COOl yk',
-        },
-        {
-          name: '! AB#2022',
-          icon: 'https://cdn.discordapp.com/avatars/706908975907471362/5ce69325ebac79e752f0c2043f95ab05.png',
-          role: 'Owner of Wonder',
-          message: 'WE COOl yk',
-        },
-      ],
+      users: null,
+    }
+  },
+  async created() {
+    try {
+      const reviews = await fetch('https://api.rapidnetwork.co/users/reviews')
+
+      const data = await reviews.json()
+      this.users = data
+    } catch (e) {
+      return console.error(e)
     }
   },
 }
