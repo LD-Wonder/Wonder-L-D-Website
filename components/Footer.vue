@@ -101,7 +101,7 @@
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="/about#history"
+                href="/about#History"
               >
                 History
               </a>
