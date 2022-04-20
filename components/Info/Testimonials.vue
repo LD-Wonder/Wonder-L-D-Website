@@ -18,7 +18,7 @@
         <!-- -->
         <div v-for="user in users" :key="user">
           <img
-            :src="user.icon"
+            :src="user.avatar"
             :alt="user.name"
             class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
           />
