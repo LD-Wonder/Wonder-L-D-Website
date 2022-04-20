@@ -32,7 +32,7 @@
             <h1
               class="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-primary to-secondary"
             >
-              Sicher Forex Fund
+              Sicher Investment
             </h1>
 
             <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">

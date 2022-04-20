@@ -1,25 +1,77 @@
 <template>
   <main>
+    
     <section id="About">
-      <div class="card lg:card-side bg-gray-800 shadow-xl py-4 m-4">
-        <div class="card-body text-center">
-          <h1 class="font-semibold text-xl text-white">Who we are?</h1>
-          <p>
-            We are a company that was founded in 2021, our company provide
-            services such as marketing, website development, Discord bot
-            development, GFX, and more. We used to focus on helping NFTs and
-            projects grows but we realise everyone should be able to grow their
-            business, projects, and social media. This is why we are here to
-            help them. We were previously named "L&D Network" but recently
-            changed to Rapid Services. The RM&S is a part of a Rapid Network.
-          </p>
-          <p>
-            We created Rapid because we want to provide cheap and professional
-            services, we want help people to be able to reach their goals and
-            dreams. We have always tried to bring our customers in first hand,
-            that makes our customers happy and will mostly return for more
-            services.
-          </p>
+      <div
+        class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      >
+        <div
+          class="flex flex-col items-start max-w-screen-sm md:flex-row sm:mx-auto"
+        >
+          <div>
+            <h2
+              class="mb-4 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none"
+            >
+              Who we are?
+            </h2>
+            <p class="my-2 text-base text-white font-medium md:text-lg">
+              We are a company that was founded in 2021, our company provide
+              services such as marketing, website development, Discord bot
+              development, GFX, and more. We used to focus on helping NFTs and
+              projects grows but we realise everyone should be able to grow
+              their business, projects, and social media. This is why we are
+              here to help them. We were previously named "L&D Network" but
+              recently changed to Rapid Services. The RM&S is a part of a Rapid
+              Network.
+            </p>
+            <p class="my-2 text-base text-white font-medium md:text-lg">
+              We created Rapid because we want to provide cheap and professional
+              services, we want help people to be able to reach their goals and
+              dreams. We have always tried to bring our customers in first hand,
+              that makes our customers happy and will mostly return for more
+              services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="History">
+      <div
+        class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      >
+        <div
+          class="flex flex-col items-start max-w-screen-sm md:flex-row sm:mx-auto"
+        >
+          <div>
+            <h2
+              class="mb-4 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none"
+            >
+              Our History
+            </h2>
+            <p
+              class="my-2 text-xs font-semibold tracking-wide text-violet-400 uppercase"
+            >
+              Founding
+            </p>
+            <p class="text-base text-white font-medium md:text-lg">
+              The company was created by Lawrence & Dino in 2021, we founded
+              this company to focus on helping NFTs and projects growth but we
+              realise everyone should be able to grow their business, projects,
+              social media too so we are here to help them. We have also always
+              tried to bring our customers in first hand, that makes our
+              customers happy and will mostly return for more services.
+            </p>
+            <p
+              class="my-2 text-xs font-semibold tracking-wide text-violet-400 uppercase"
+            >
+              Name
+            </p>
+            <p class="text-base text-white font-medium md:text-lg">
+              We were previously named "L&D Services", it was named after the
+              two original founders, Lawrence & Dino. Later on we changed to
+              Rapid Services because we needed a rebrand for our company.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -29,13 +81,11 @@
           <div
             class="text-center container flex flex-col mx-auto w-full items-center justify-center"
           >
-            <div
-              class="px-4 py-5 sm:px-6 w-fit border-gray-700 mb-6 bg-gray-800 shadow-md rounded-md"
+            <h2
+              class="mb-4 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none"
             >
-              <h3 class="text-lg leading-6 font-medium text-white">
-                Contacts Us!
-              </h3>
-            </div>
+              Contacts Us!
+            </h2>
             <ul class="flex flex-col">
               <li class="border-gray-400 flex flex-row mb-2">
                 <a
@@ -76,8 +126,11 @@
                   </div>
                 </a>
               </li>
-              <a href="https://twitter.com/WelcomeAdvert"
-                      target="_blank" class="border-gray-400 flex flex-row mb-2">
+              <a
+                href="https://twitter.com/WelcomeAdvert"
+                target="_blank"
+                class="border-gray-400 flex flex-row mb-2"
+              >
                 <div
                   class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-gray-800 rounded-md flex flex-1 items-center p-4"
                 >
@@ -107,8 +160,11 @@
                   </div>
                 </div>
               </a>
-              <a class="border-gray-400 flex flex-row mb-2" href="https://www.instagram.com/rapidms/"
-                      target="_blank">
+              <a
+                class="border-gray-400 flex flex-row mb-2"
+                href="https://www.instagram.com/rapidms/"
+                target="_blank"
+              >
                 <div
                   class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-gray-800 rounded-md flex flex-1 items-center p-4"
                 >
@@ -140,7 +196,11 @@
                   </div>
                 </div>
               </a>
-              <a href="/join" target="_blank"  class="border-gray-400 flex flex-row mb-2">
+              <a
+                href="/join"
+                target="_blank"
+                class="border-gray-400 flex flex-row mb-2"
+              >
                 <div
                   class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-gray-800 rounded-md flex flex-1 items-center p-4"
                 >
@@ -172,7 +232,6 @@
                   <div class="flex-1 pl-1 md:mr-16 text-center">
                     <div class="font-medium text-white">Rapid Services</div>
                     <div class="text-gray-200 text-sm">Discord</div>
-                    
                   </div>
                 </div>
               </a>
@@ -181,6 +240,5 @@
         </div>
       </div>
     </section>
-    <section id="History"></section>
   </main>
 </template>
