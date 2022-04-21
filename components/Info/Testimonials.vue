@@ -13,6 +13,7 @@
         </p>
       </div>
       <div
+        v-if="users"
         class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
       >
         <!-- -->
@@ -35,6 +36,7 @@
         </div>
         <!-- -->
       </div>
+      <p v-else class="my-8 text-3xl font-bold text-center text-white">Fetching..</p>
     </div>
   </section>
 </template>
