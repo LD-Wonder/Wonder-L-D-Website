@@ -20,14 +20,14 @@
         <div v-for="user in users" :key="user">
           <img
             :src="user.avatar"
-            :alt="user.name"
+            :alt="user.username"
             class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
           />
 
           <blockquote
             class="flex flex-col justify-between p-12 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
           >
-            <p class="text-lg font-bold text-gray-100">{{ user.name }}</p>
+            <p class="text-lg font-bold text-gray-100">{{ user.username }}</p>
             <p v-if="user.role" class="mt-1 text-xs font-medium text-gray-300">
               {{ user.role }}
             </p>

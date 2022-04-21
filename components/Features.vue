@@ -124,7 +124,8 @@
           <p class="mb-3 text-sm text-white">
             We offer a wide range of services starting from Marketing,
             Website/Bot Development, to GFX service with affordable prices and
-            good qualities for everyone!
+            good qualities for everyone! We have worked with more than
+            <b>110+ happy customers and have around 30 active customers.</b>
           </p>
         </div>
       </div>
