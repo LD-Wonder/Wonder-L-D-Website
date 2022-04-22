@@ -36,8 +36,7 @@
             </h1>
 
             <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
-              Want to become a professional Trader/Investor easily to get
-              profits?
+              Do you want to earn profits easily? Invest on Sicher today! Simple, fast, and most Importantly PROFITABLE!
             </p>
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
@@ -62,7 +61,6 @@
               background-size: contain;
             "
           >
-            STOCKTIPPERS
           </div>
           <div class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12">
             <p class="mt-4 mb-8 text-sm">
@@ -301,7 +299,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Want to become a professional Trader/Investor easily to get profits?',
+            'Do you want to earn profits easily? Invest on Sicher today! Simple, fast, and most Importantly PROFITABLE!',
         },
         {
           name: 'og:title',
@@ -317,7 +315,7 @@ export default {
           name: 'og:description',
           hid: 'og:description',
           content:
-            'Want to become a professional Trader/Investor easily to get profits?',
+            'Do you want to earn profits easily? Invest on Sicher today! Simple, fast, and most Importantly PROFITABLE!',
         },
       ],
     }
