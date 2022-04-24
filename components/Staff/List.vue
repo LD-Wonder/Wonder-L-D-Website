@@ -1,68 +1,72 @@
 <template>
   <section>
-    <div class="p-8 bg-gray-800 rounded-lg shadow m-4">
-      <p v-if="seniors" class="text-center text-3xl font-bold text-white">
+    <div class="p-8 m-4 bg-gray-800 rounded-lg shadow">
+      <p v-if="seniors" class="text-3xl font-bold text-center text-white">
         Our Leaders
       </p>
-      <p v-else class="text-center text-3xl font-bold text-white">Fetching..</p>
+      <p v-else class="m-4 text-3xl font-bold text-center text-white">
+        Fetching..
+      </p>
 
       <div
         v-if="seniors"
-        class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+        class="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4"
       >
         <div class="p-4" v-for="user in seniors" :key="user">
-          <div class="flex-col flex justify-center items-center">
+          <div class="flex flex-col items-center justify-center">
             <div class="flex-shrink-0">
-              <a href="#" class="block relative">
+              <a href="#" class="relative block">
                 <img
                   :src="user.avatar"
                   :alt="user.username"
-                  class="mx-auto object-cover rounded-full h-20 w-20"
+                  class="object-cover w-20 h-20 mx-auto rounded-full"
                 />
               </a>
             </div>
-            <div class="mt-2 text-center flex flex-col">
-              <span class="text-white text-lg font-medium">
+            <div class="flex flex-col mt-2 text-center">
+              <span class="text-lg font-medium text-white">
                 {{ user.username }}
               </span>
-              <span class="text-gray-400 text-xs"> {{ user.role }} </span>
+              <span class="text-xs text-gray-400"> {{ user.role }} </span>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="p-8 bg-gray-800 rounded-lg shadow m-4">
-      <p v-if="users" class="text-center text-3xl font-bold text-white">
+    <div class="p-8 m-4 bg-gray-800 rounded-lg shadow">
+      <p v-if="users" class="text-3xl font-bold text-center text-white">
         Our Elite Team
       </p>
-      <p v-else class="text-center text-3xl font-bold text-white">Fetching..</p>
+      <p v-else class="m-4 text-3xl font-bold text-center text-white">
+        Fetching..
+      </p>
 
       <p
         v-if="users"
-        class="text-center mb-12 text-xl font-normal text-gray-300"
+        class="mb-12 text-xl font-normal text-center text-gray-300"
       >
         Meet Our Team Members!!
       </p>
       <div
         v-if="users"
-        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4"
+        class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6"
       >
         <div class="p-4" v-for="user in users" :key="user">
-          <div class="flex-col flex justify-center items-center">
+          <div class="flex flex-col items-center justify-center">
             <div class="flex-shrink-0">
-              <a href="#" class="block relative">
+              <a href="#" class="relative block">
                 <img
                   :src="user.avatar"
                   :alt="user.username"
-                  class="mx-auto object-cover rounded-full h-20 w-20"
+                  class="object-cover w-20 h-20 mx-auto rounded-full"
                 />
               </a>
             </div>
-            <div class="mt-2 text-center flex flex-col">
-              <span class="text-white text-lg font-medium">
+            <div class="flex flex-col mt-2 text-center">
+              <span class="text-lg font-medium text-white">
                 {{ user.username }}
               </span>
-              <span class="text-gray-400 text-xs"> {{ user.role }} </span>
+              <span class="text-xs text-gray-400"> {{ user.role }} </span>
             </div>
           </div>
         </div>
