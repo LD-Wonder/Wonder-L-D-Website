@@ -67,7 +67,7 @@
             v-if="sent"
             class="p-8 bg-gray-900 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
           >
-            <div class="shadow-lg alert">
+            <div class="text-white bg-gray-800 shadow-lg alert">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@
           class="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid"
         >
           <fieldset
-            class="grid grid-cols-4 gap-6 p-6 bg-gray-800 rounded-md shadow-sm"
+            class="grid grid-cols-4 gap-6 p-6 font-medium bg-gray-800 rounded-md shadow-sm"
             id="start"
           >
             <div class="space-y-2 col-span-full lg:col-span-1">
@@ -108,10 +108,11 @@
             </div>
             <div class="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
               <div class="col-span-full sm:col-span-3">
-                <label for="username" class="text-sm"
-                  >Username [Ex: MrFluffycloud#999]</label
+                <label for="username" class="pb-1 text-sm"
+                  >Username [Ex: MrFluffycloud#9999]</label
                 >
                 <input
+                  maxlength="1024"
                   id="username"
                   type="text"
                   required
@@ -121,10 +122,11 @@
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
-                <label for="id" class="text-sm"
+                <label for="id" class="pb-1 text-sm"
                   >ID [Ex: 676745968867082250]</label
                 >
                 <input
+                  maxlength="1024"
                   id="id"
                   type="text"
                   required
@@ -134,11 +136,12 @@
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
-                <label for="age" class="text-sm"
+                <label for="age" class="pb-1 text-sm"
                   >Age [If you wish to give a Range, (Ex: 16-18), you
                   may!]</label
                 >
                 <input
+                  maxlength="1024"
                   id="age"
                   type="text"
                   required
@@ -148,22 +151,26 @@
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
-                <label for="timezone" class="text-sm"
-                  >Which Time-Zone do you live in?</label
+                <label for="timezone" class="pb-1 text-sm"
+                  >Which Time-Zone do you live in? [Search if you may!]</label
                 >
-                <input
+
+                <select
                   id="timezone"
-                  type="text"
-                  required
                   v-model="content.timezone"
-                  placeholder="Timezone"
-                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
-                />
+                  class="w-full max-w-xs text-white select select-primary"
+                  required
+                >
+                  <option disabled selected>Choose your Timezone!</option>
+                  <option v-for="timezone in timezones" :key="timezone">
+                    {{ timezone }}
+                  </option>
+                </select>
               </div>
             </div>
           </fieldset>
           <fieldset
-            class="grid grid-cols-4 gap-6 p-6 bg-gray-800 rounded-md shadow-sm"
+            class="grid grid-cols-4 gap-6 p-6 font-medium bg-gray-800 rounded-md shadow-sm"
             id="1"
           >
             <div class="space-y-2 col-span-full lg:col-span-1">
@@ -172,7 +179,7 @@
             </div>
             <div class="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
               <div class="col-span-full sm:col-span-3">
-                <label for="hoursperweek" class="text-sm"
+                <label for="hoursperweek" class="pb-1 text-sm"
                   >How many Hours per WEEK can you Work on RM&S?</label
                 >
                 <input
@@ -185,12 +192,13 @@
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
-                <label for="whyu" class="text-sm"
+                <label for="whyu" class="pb-1 text-sm"
                   >Tell us a bit about yourself, and Why we should chose YOU
                   over other Applicants!</label
                 >
                 <textarea
                   id="whyu"
+                  maxlength="1024"
                   required
                   v-model="content.whyu"
                   placeholder="Why You??"
@@ -198,12 +206,13 @@
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
-                <label for="pastexp" class="text-sm"
-                  >Which Servers do you CURRENTLY work for? (Please send Invite
-                  Links!)</label
+                <label for="pastexp" class="pb-1 text-sm"
+                  >Which Servers do you CURRENTLY work for? [Please send Invite
+                  Links!]</label
                 >
                 <input
                   id="pastexp"
+                  maxlength="1024"
                   type="text"
                   required
                   placeholder="Past Experiences"
@@ -213,12 +222,13 @@
               </div>
 
               <div class="col-span-full sm:col-span-3">
-                <label for="sw" class="text-sm"
+                <label for="sw" class="pb-1 text-sm"
                   >Please list 2 of your Strengths, and 2 of your
                   Weaknesses.</label
                 >
                 <textarea
                   id="sw"
+                  maxlength="1024"
                   required
                   v-model="content.sw"
                   placeholder="Your Answer.."
@@ -226,7 +236,7 @@
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
-                <label for="sw" class="text-sm"
+                <label for="sw" class="pb-1 text-sm"
                   >How fluent are you in English?</label
                 >
                 <input
@@ -247,6 +257,30 @@
                   <span>5</span>
                 </div>
               </div>
+            </div>
+          </fieldset>
+          <fieldset
+            class="grid grid-cols-4 gap-6 p-6 font-medium bg-gray-800 rounded-md shadow-sm"
+          >
+            <div class="space-y-2 col-span-full lg:col-span-1">
+              <p class="font-medium">Other</p>
+            </div>
+            <div class="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
+              <div class="col-span-full sm:col-span-3">
+                <label for="team" class="pb-1 text-sm"
+                  >Which Team would you like to work for?</label
+                >
+
+                <select
+                  id="team"
+                  v-model="content.team"
+                  class="w-full max-w-xs text-white select select-primary"
+                  required
+                >
+                  <option disabled selected>Choose your team!</option>
+                  <option v-for="team in teams" :key="team">{{ team }}</option>
+                </select>
+              </div>
               <div class="col-span-full sm:col-span-3">
                 <label for="intrested" class="cursor-pointer label">
                   <span class="label-text"
@@ -265,9 +299,28 @@
             </div>
           </fieldset>
 
+          <fieldset
+            class="grid grid-cols-4 gap-6 p-6 font-medium bg-gray-800 rounded-md shadow-sm"
+          >
+            <div class="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
+              <div class="col-span-full sm:col-span-3">
+                <label for="other" class="pb-1 text-sm"
+                  >Anything else to add?</label
+                >
+                <textarea
+                  maxlength="1024"
+                  id="other"
+                  v-model="content.other"
+                  placeholder="Anything else?.."
+                  class="w-full text-white border-gray-700 rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                />
+              </div>
+            </div>
+          </fieldset>
+
           <button
             type="submit"
-            class="inline-flex items-center justify-center px-5 py-3 font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+            class="inline-flex items-center justify-center px-5 py-3 font-medium text-white border rounded-full btn w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
           >
             <span class="font-medium"> Send Application </span>
             <span>
@@ -299,6 +352,124 @@ export default {
     return {
       count: 0,
       sent: false,
+      timezones: [
+        '(UTC-12:00) International Date Line West',
+        '(UTC-11:00) Coordinated Universal Time-11',
+        '(UTC-10:00) Hawaii',
+        '(UTC-09:00) Alaska',
+        '(UTC-08:00) Baja California',
+        '(UTC-07:00) Pacific Daylight Time (US & Canada)',
+        '(UTC-08:00) Pacific Standard Time (US & Canada)',
+        '(UTC-07:00) Arizona',
+        '(UTC-07:00) Chihuahua, La Paz, Mazatlan',
+        '(UTC-07:00) Mountain Time (US & Canada)',
+        '(UTC-06:00) Central America',
+        '(UTC-06:00) Central Time (US & Canada)',
+        '(UTC-06:00) Guadalajara, Mexico City, Monterrey',
+        '(UTC-06:00) Saskatchewan',
+        '(UTC-05:00) Bogota, Lima, Quito',
+        '(UTC-05:00) Eastern Time (US & Canada)',
+        '(UTC-04:00) Eastern Daylight Time (US & Canada)',
+        '(UTC-05:00) Indiana (East)',
+        '(UTC-04:30) Caracas',
+        '(UTC-04:00) Asuncion',
+        '(UTC-04:00) Atlantic Time (Canada)',
+        '(UTC-04:00) Cuiaba',
+        '(UTC-04:00) Georgetown, La Paz, Manaus, San Juan',
+        '(UTC-04:00) Santiago',
+        '(UTC-03:30) Newfoundland',
+        '(UTC-03:00) Brasilia',
+        '(UTC-03:00) Buenos Aires',
+        '(UTC-03:00) Cayenne, Fortaleza',
+        '(UTC-03:00) Greenland',
+        '(UTC-03:00) Montevideo',
+        '(UTC-03:00) Salvador',
+        '(UTC-02:00) Coordinated Universal Time-02',
+        '(UTC-02:00) Mid-Atlantic - Old',
+        '(UTC-01:00) Azores',
+        '(UTC-01:00) Cape Verde Is.',
+        '(UTC) Casablanca',
+        '(UTC) Coordinated Universal Time',
+        '(UTC) Edinburgh, London',
+        '(UTC+01:00) Edinburgh, London',
+        '(UTC) Dublin, Lisbon',
+        '(UTC) Monrovia, Reykjavik',
+        '(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna',
+        '(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague',
+        '(UTC+01:00) Brussels, Copenhagen, Madrid, Paris',
+        '(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb',
+        '(UTC+01:00) West Central Africa',
+        '(UTC+01:00) Windhoek',
+        '(UTC+02:00) Athens, Bucharest',
+        '(UTC+02:00) Beirut',
+        '(UTC+02:00) Cairo',
+        '(UTC+02:00) Damascus',
+        '(UTC+02:00) E. Europe',
+        '(UTC+02:00) Harare, Pretoria',
+        '(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius',
+        '(UTC+03:00) Istanbul',
+        '(UTC+02:00) Jerusalem',
+        '(UTC+02:00) Tripoli',
+        '(UTC+03:00) Amman',
+        '(UTC+03:00) Baghdad',
+        '(UTC+02:00) Kaliningrad',
+        '(UTC+03:00) Kuwait, Riyadh',
+        '(UTC+03:00) Nairobi',
+        '(UTC+03:00) Moscow, St. Petersburg, Volgograd, Minsk',
+        '(UTC+04:00) Samara, Ulyanovsk, Saratov',
+        '(UTC+03:30) Tehran',
+        '(UTC+04:00) Abu Dhabi, Muscat',
+        '(UTC+04:00) Baku',
+        '(UTC+04:00) Port Louis',
+        '(UTC+04:00) Tbilisi',
+        '(UTC+04:00) Yerevan',
+        '(UTC+04:30) Kabul',
+        '(UTC+05:00) Ashgabat, Tashkent',
+        '(UTC+05:00) Yekaterinburg',
+        '(UTC+05:00) Islamabad, Karachi',
+        '(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi',
+        '(UTC+05:30) Sri Jayawardenepura',
+        '(UTC+05:45) Kathmandu',
+        '(UTC+06:00) Nur-Sultan (Astana)',
+        '(UTC+06:00) Dhaka',
+        '(UTC+06:30) Yangon (Rangoon)',
+        '(UTC+07:00) Bangkok, Hanoi, Jakarta',
+        '(UTC+07:00) Novosibirsk',
+        '(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi',
+        '(UTC+08:00) Krasnoyarsk',
+        '(UTC+08:00) Kuala Lumpur, Singapore',
+        '(UTC+08:00) Perth',
+        '(UTC+08:00) Taipei',
+        '(UTC+08:00) Ulaanbaatar',
+        '(UTC+08:00) Irkutsk',
+        '(UTC+09:00) Osaka, Sapporo, Tokyo',
+        '(UTC+09:00) Seoul',
+        '(UTC+09:30) Adelaide',
+        '(UTC+09:30) Darwin',
+        '(UTC+10:00) Brisbane',
+        '(UTC+10:00) Canberra, Melbourne, Sydney',
+        '(UTC+10:00) Guam, Port Moresby',
+        '(UTC+10:00) Hobart',
+        '(UTC+09:00) Yakutsk',
+        '(UTC+11:00) Solomon Is., New Caledonia',
+        '(UTC+11:00) Vladivostok',
+        '(UTC+12:00) Auckland, Wellington',
+        '(UTC+12:00) Coordinated Universal Time+12',
+        '(UTC+12:00) Fiji',
+        '(UTC+12:00) Magadan',
+        '(UTC+12:00) Petropavlovsk-Kamchatsky - Old',
+        "(UTC+13:00) Nuku'alofa",
+        '(UTC+13:00) Samoa',
+      ],
+      teams: [
+        'Marketers',
+        'Human Resources',
+        'Moderator',
+        'Partnership Coordinator',
+        'Developer',
+        'Designer',
+        'Shill Manager',
+      ],
       content: {
         username: null,
         id: null,
@@ -310,6 +481,8 @@ export default {
         intrested: null,
         sw: null,
         range: null,
+        team: null,
+        other: null,
       },
     }
   },
