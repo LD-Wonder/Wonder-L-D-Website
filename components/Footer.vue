@@ -172,7 +172,6 @@
           </div>
         </div>
       </div>
-
       <p class="mt-8 text-xs text-gray-500">&copy; 2022 MrFluffycloud</p>
     </div>
   </footer>

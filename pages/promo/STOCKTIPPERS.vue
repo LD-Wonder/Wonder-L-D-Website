@@ -50,21 +50,19 @@
     </main>
     <section class="bg-base-100 text-base-content" id="ReadMore">
       <div class="container flex flex-col mx-auto lg:flex-row">
-        <div
-          class="w-full"
-          style="
-            background-image: url('https://cdn.discordapp.com/icons/895738246959620116/4096db67d8a4e5b8c916140f3c880937.png?size=1024');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: contain;
-          "
-        ></div>
+        <img
+          alt=""
+          class="flex flex-col mx-auto md:w-1/3 md:h-1/3 w-11/12 h-11/12 lg:mx-4 rounded-full ring-2 bg-base-100 ring-emerald-400 ring-offset-base-100"
+          src="https://cdn.discordapp.com/icons/895738246959620116/4096db67d8a4e5b8c916140f3c880937.png?size=1024"
+        />
+
         <div class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12">
-          <p class="mt-4 mb-8 text-sm">
+          <p class="mt-4 mb-8 text-sm mx-auto text-center md:text-justify">
             We supply the tools, resources and community that can be essential
-            in becoming successful in the market and life. The traders have their
-            own rooms where they can chat during trading hours for our premium
-            members, to watch and learn from the group of experience traders.
+            in becoming successful in the market and life. The traders have
+            their own rooms where they can chat during trading hours for our
+            premium members, to watch and learn from the group of experience
+            traders.
           </p>
 
           <a

@@ -36,7 +36,8 @@
             </h1>
 
             <p class="max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl">
-              Do you want to earn profits easily? Invest on Sicher today! Simple, fast, and most Importantly PROFITABLE!
+              Do you want to earn profits easily? Invest on Sicher today!
+              Simple, fast, and most Importantly PROFITABLE!
             </p>
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
@@ -52,221 +53,141 @@
       </main>
       <section class="bg-base-100 text-base-content" id="ReadMore">
         <div class="container flex flex-col mx-auto lg:flex-row">
+          <img
+            alt=""
+            class="flex flex-col mx-auto md:w-1/3 md:h-1/3 w-11/12 h-11/12 lg:mx-4 rounded-full ring-2 bg-base-100 ring-emerald-400 ring-offset-base-100"
+            src="https://cdn.discordapp.com/icons/895738246959620116/4096db67d8a4e5b8c916140f3c880937.png?size=1024"
+          />
+
           <div
-            class="w-full"
-            style="
-              background-image: url('https://cdn.discordapp.com/icons/895738246959620116/4096db67d8a4e5b8c916140f3c880937.png?size=1024');
-              background-position: center center;
-              background-repeat: no-repeat;
-              background-size: contain;
-            "
+            class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12 font-medium"
           >
-          </div>
-          <div class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12">
-            <p class="mt-4 mb-8 text-sm">
-              We supply the tools, resources and community that can be essential
-              in becoming succesful in the market and life. The traders have
-              their own rooms where they can chat during trading hours for our
-              premium members, to watch and learn from the group of experience
-              traders.
+            <h1
+              class="mt-4 mb-8 text-3xl mx-auto text-center md:text-justify font-semibold"
+            >
+              About Sicher Investments
+            </h1>
+            <p class="mt-4 mb-8 text-sm mx-auto text-center md:text-justify">
+              We are an Investment service that works on making profits for our
+              investors. We use investors money to do Forex Trading handled by
+              our professionals Forex Traders that are experienced and capable
+              of getting a lot of profits.
             </p>
 
             <a
-              href="#Premium"
-              class="self-center px-10 py-3 text-lg font-semibold lg:self-start btn btn-primary btn-outline text-base-100"
+              href="#Offer"
+              class="self-center mx-autp px-10 py-3 text-lg font-semibold lg:self-center btn btn-primary btn-outline text-base-100"
             >
-              Our Premium Services
+              What do we offer?
             </a>
           </div>
         </div>
       </section>
-      <div
-        id="Premium"
-        class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-base-100 text-base-content"
-      >
-        <ul class="grid gap-3 md:grid-cols-2 lg:grid-cols-2">
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span>Lifetime access to 3-10 daily exclusive signals!</span>
-          </li>
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span>24/7 Discord life support!</span>
-          </li>
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span
-              >Basic information about risk management & educational
-              channels!</span
-            >
-          </li>
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span
-              >Copy trading (For options/stocks which is something new and
-              really exciting)!</span
-            >
-          </li>
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span>Education channels for Crypto, Stocks, Forex & Options!</span>
-          </li>
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span
-              >Profitable signal alerts for! Crypto, Stocks, Forex &
-              Options!</span
-            >
-          </li>
-          <li class="flex items-center space-x-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              class="w-5 h-5 text-blue-400 fill-current"
-            >
-              <path
-                d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
-              ></path>
-              <polygon
-                points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
-              ></polygon>
-            </svg>
-            <span>Crypto, Stocks & Forex related news channels!</span>
-          </li>
-        </ul>
-      </div>
       <section class="my-8 bg-base-100 text-base-content">
-        <div
-          class="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12"
-          data-aos="fade-up"
-        >
-          <h1 class="p-4 text-4xl font-semibold leading-none text-center">
-            Become a Professional Trader/Investor today! Click the link below to
-            start! You will also gain special benefits and roles on our Server:
-          </h1>
+        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+          <div
+            id="Offer"
+            class="card-body container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <h1
+              class="card-title p-4 text-3xl font-bold leading-none text-center text-primary"
+            >
+              What do we offer?
+            </h1>
+          </div>
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:pb-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <p class="px-4 pb-4 text-xl font-medium leading-none text-center">
+              We offer Investment service for you that wants to have a safe
+              investment without having to worry about risk and profits. Our
+              experienced Forex Traders will do the Trading and manage it for
+              you making sure you will gain profits instead of loses! From just
+              $100, you can start investing on our Investment Service and gain
+              profits.
+            </p>
+          </div>
         </div>
-        <div
-          class="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10"
-        >
-          <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
-            <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-              <div class="w-full shadow-xl card lg:w-96 bg-base-300">
-                <div class="card-body">
-                  <h2 class="card-title">Link</h2>
-                  <p>To: Upgrade.chat</p>
-                  <div class="justify-end card-actions">
-                    <a
-                      href="https://upgrade.chat/895738246959620116?referralCode=706908975907471362"
-                      target="_blank"
-                      class="btn btn-primary"
-                      >Go!</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <h1
+              class="p-4 text-3xl font-bold leading-none text-center text-primary"
+            >
+              Our Target
+            </h1>
           </div>
-          <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
-            <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-              <div class="w-full shadow-xl card lg:w-96 bg-base-300">
-                <div class="card-body">
-                  <h2 class="card-title">Support Server</h2>
-                  <p>Redirects you to the Discord Server!</p>
-                  <div class="justify-end card-actions">
-                    <a
-                      href="https://discord.gg/QU3qebNSBz"
-                      target="_blank"
-                      class="btn btn-secondary"
-                      >Join!</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:pb-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <p class="px-4 pb-4 text-xl font-medium leading-none text-center">
+              We intend to maximize the money we receive from investors, and we
+              target percentage of 400% to more than 1000% profits from initial
+              investments depending on the agreement. We want to help people to
+              gain enormous profits from our firm, and we can not wait to help
+              out even more!
+            </p>
           </div>
-          <div class="flex flex-auto max-w-sm mx-4 my-6 shadow-lg">
-            <div class="px-4 rounded-t-lg sm:px-8 md:px-12 bg-base-100">
-              <div class="w-full shadow-xl card lg:w-96 bg-base-300">
-                <div class="card-body">
-                  <h2 class="card-title">Check out Benefits!</h2>
-                  <p>Read more about the Benefits!</p>
-                  <div class="justify-end card-actions">
-                    <a
-                      href="https://discord.com/channels/895738246959620116/898229612495110194/923246864432766976"
-                      target="_blank"
-                      class="btn btn-primary"
-                      >Read!</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <h1
+              class="p-4 text-3xl font-bold leading-none text-center text-primary"
+            >
+              WHY US?
+            </h1>
+          </div>
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:pb-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <p class="px-4 pb-4 text-xl font-medium leading-none text-center">
+              Unlike other investment firms, we focus on making sure you will
+              make profits from your initial investment instead of losses. We
+              also offer the lowest investment price that is on the market today
+              starting from $100! We work 24-7 to make sure you are satisfied
+              with our help, to grow your Investment.
+            </p>
+          </div>
+        </div>
+        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <h1
+              class="p-4 text-3xl font-bold leading-none text-center text-primary"
+            >
+              Payment Options
+            </h1>
+          </div>
+          <div
+            class="container flex flex-col items-center mx-auto mb-8 md:pb-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <p class="px-4 pb-4 text-xl font-medium leading-none text-center">
+              We accept PayPal, Bank Transfer, and Cryptocurrencies!
+            </p>
+          </div>
+        </div>
+        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+          <div
+            class="container flex flex-col items-center mx-auto m-8 md:p-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <h1
+              class="p-4 text-5xl font-black leading-none text-center text-primary"
+            >
+              Quality Investments for better life.
+            </h1>
           </div>
         </div>
       </section>
