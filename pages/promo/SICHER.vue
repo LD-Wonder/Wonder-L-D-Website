@@ -1,5 +1,5 @@
 <template>
-  <section data-theme="light">
+  <section data-theme="night">
     <section class="bg-base-100">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -42,7 +42,7 @@
 
             <div class="flex flex-wrap justify-center gap-4 mt-8">
               <a
-                class="block w-auto px-12 py-3 text-sm font-semibold text-white btn btn-primary btn-outline hover:text-neutral"
+                class="block w-auto px-12 py-3 text-sm font-semibol btn btn-primary btn-outline hover:text-neutral"
                 href="#ReadMore"
               >
                 Learn More
@@ -55,19 +55,19 @@
         <div class="container flex flex-col mx-auto lg:flex-row">
           <img
             alt=""
-            class="flex flex-col mx-auto md:w-1/3 md:h-1/3 w-11/12 h-11/12 lg:mx-4 rounded-full ring-2 bg-base-100 ring-emerald-400 ring-offset-base-100"
-            src="https://cdn.discordapp.com/icons/895738246959620116/4096db67d8a4e5b8c916140f3c880937.png?size=1024"
+            class="flex flex-col w-11/12 mx-auto rounded-3xl md:w-1/3 md:h-1/3 h-11/12 lg:mx-4 ring-2 bg-base-100 ring-primary ring-offset-base-100 ring-offset-4"
+            src="https://cdn.discordapp.com/attachments/774149413332844564/969165964845400135/Untitled_1.png"
           />
 
           <div
-            class="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12 font-medium"
+            class="flex flex-col w-full p-6 font-medium lg:w-2/3 md:p-8 lg:p-12"
           >
             <h1
-              class="mt-4 mb-8 text-3xl mx-auto text-center md:text-justify font-semibold"
+              class="mx-auto mt-4 mb-8 text-3xl font-semibold text-center md:text-justify"
             >
               About Sicher Investments
             </h1>
-            <p class="mt-4 mb-8 text-sm mx-auto text-center md:text-justify">
+            <p class="mx-auto mt-4 mb-8 text-sm text-center md:text-justify">
               We are an Investment service that works on making profits for our
               investors. We use investors money to do Forex Trading handled by
               our professionals Forex Traders that are experienced and capable
@@ -76,7 +76,7 @@
 
             <a
               href="#Offer"
-              class="self-center mx-autp px-10 py-3 text-lg font-semibold lg:self-center btn btn-primary btn-outline text-base-100"
+              class="self-center px-10 py-3 text-lg font-semibold mx-autp lg:self-center btn btn-primary btn-outline text-base-100"
             >
               What do we offer?
             </a>
@@ -84,14 +84,14 @@
         </div>
       </section>
       <section class="my-8 bg-base-100 text-base-content">
-        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+        <div class="m-2 shadow-md card bg-base-200 md:m-4">
           <div
             id="Offer"
-            class="card-body container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
+            class="container flex flex-col items-center mx-auto mb-8 card-body md:p-10 md:px-12"
             data-aos="fade-up"
           >
             <h1
-              class="card-title p-4 text-3xl font-bold leading-none text-center text-primary"
+              class="p-4 text-3xl font-bold leading-none text-center card-title text-primary"
             >
               What do we offer?
             </h1>
@@ -110,7 +110,7 @@
             </p>
           </div>
         </div>
-        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+        <div class="m-2 shadow-md card bg-base-200 md:m-4">
           <div
             class="container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
             data-aos="fade-up"
@@ -134,7 +134,7 @@
             </p>
           </div>
         </div>
-        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+        <div class="m-2 shadow-md card bg-base-200 md:m-4">
           <div
             class="container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
             data-aos="fade-up"
@@ -158,7 +158,7 @@
             </p>
           </div>
         </div>
-        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+        <div class="m-2 shadow-md card bg-base-200 md:m-4">
           <div
             class="container flex flex-col items-center mx-auto mb-8 md:p-10 md:px-12"
             data-aos="fade-up"
@@ -178,9 +178,9 @@
             </p>
           </div>
         </div>
-        <div class="card bg-base-200 md:m-4 m-2 shadow-md">
+        <div class="m-2 shadow-md card bg-base-200 md:m-4">
           <div
-            class="container flex flex-col items-center mx-auto m-8 md:p-10 md:px-12"
+            class="container flex flex-col items-center m-8 mx-auto md:p-10 md:px-12"
             data-aos="fade-up"
           >
             <h1
@@ -191,16 +191,81 @@
           </div>
         </div>
       </section>
-      <footer class="bg-base-100 text-base-50">
-        <div
-          class="container flex flex-col p-4 mx-auto divide-gray-400 md:p-8 lg:flex-row"
-        >
-          <ul
-            class="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start"
-          ></ul>
-          <div class="flex flex-col justify-center pt-6 lg:pt-0">
-            <div class="flex justify-center space-x-4"></div>
+      <section class="py-6 bg-base-100 text-gray-50">
+        <div class="m-2 shadow-md card bg-base-200 md:m-4">
+          <div
+            class="container flex flex-col items-center m-8 mx-auto md:p-10 md:px-12"
+            data-aos="fade-up"
+          >
+            <h1
+              class="p-4 text-5xl font-black leading-none text-center text-primary"
+            >
+              Proofs
+            </h1>
+            <div
+              class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4"
+            >
+              <!-- <img
+                alt=""
+                class="w-full h-full rounded shadow-sm bg-base-2 min-h-48"
+                src="https://media.discordapp.net/attachments/774149413332844564/969166645773873212/image.png"
+              /> -->
+              <img
+                alt=""
+                class="w-full h-full rounded shadow-sm bg-base-300 min-h-48"
+                src="https://media.discordapp.net/attachments/774149413332844564/969211530803548210/unknown.png"
+              />
+              <img
+                alt=""
+                class="w-full h-full rounded shadow-sm bg-base-300 min-h-48"
+                src="https://cdn.discordapp.com/attachments/774149413332844564/969211942482890792/unknown.png"
+              />
+              <img
+                alt=""
+                class="w-full h-full rounded shadow-sm bg-base-300 min-h-48"
+                src="https://cdn.discordapp.com/attachments/774149413332844564/969211713348046858/unknown.png"
+              />
+              <img
+                alt=""
+                class="w-full h-full rounded shadow-sm bg-base-300 min-h-48"
+                src="https://cdn.discordapp.com/attachments/774149413332844564/969212034560446484/unknown.png"
+              />
+              <!--  
+              <img
+                src="https://media.discordapp.net/attachments/774149413332844564/969134469237841940/cee0877f-0704-4314-9cf6-e02cd378fe4f-1.JPG"
+                alt=""
+                class="w-full h-full col-span-2 row-span-2 rounded shadow-sm bg-base-200 min-h-96 md:col-start-3 md:row-start-1"
+              /> -->
+              <img
+                alt=""
+                class="hidden w-full col-span-2 row-span-2 rounded shadow-sm opacity-75 place-self-center md:block min-w-96 md:col-start-3 md:row-start-1"
+                src="https://media.discordapp.net/attachments/774149413332844564/969166645773873212/image.png"
+              />
+              <video
+                class="w-full h-full col-span-2 row-span-2 rounded shadow-sm md:hidden min-h-96 md:col-start-3 place-self-center md:row-start-1"
+                autoplay
+                loop
+                muted
+                poster="https://media.discordapp.net/attachments/774149413332844564/969166645773873212/image.png"
+              >
+                <source
+                  src="https://cdn.discordapp.com/attachments/774149413332844564/969217221337448478/Untitled_video_Made_with_Clipchamp.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
+        </div>
+      </section>
+      <footer class="bg-base-100 text-base-50">
+        <div class="container divide-gray-400">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+            <path
+              fill="#3abef9"
+              fill-opacity="1"
+              d="M0,160L1440,256L1440,500L0,500Z"
+            ></path>
+          </svg>
         </div>
       </footer>
     </section>
