@@ -4,9 +4,10 @@
       <p v-if="seniors" class="text-3xl font-bold text-center text-white">
         Our Leaders
       </p>
-      <p v-else class="m-4 text-3xl font-bold text-center text-white">
-        Fetching..
-      </p>
+      <div
+        v-else
+        class="-m-8 text-3xl font-bold text-center text-white bg-gray-700 h-48 p-3 overflow-hidden animate-pulse rounded-lg"
+      ></div>
 
       <div
         v-if="seniors"
@@ -14,8 +15,10 @@
       >
         <div class="p-4" v-for="user in seniors" :key="user">
           <div class="flex flex-col items-center justify-center">
-            <div class="flex-shrink-0">
-              <a href="#" class="relative block">
+            <div
+              class="flex-shrink-0"
+            >
+              <a lass="relative block">
                 <img
                   :src="user.avatar"
                   :alt="user.username"
@@ -37,9 +40,10 @@
       <p v-if="users" class="text-3xl font-bold text-center text-white">
         Our Elite Team
       </p>
-      <p v-else class="m-4 text-3xl font-bold text-center text-white">
-        Fetching..
-      </p>
+      <div
+        v-else
+        class="-m-8 text-3xl font-bold text-center text-white bg-gray-700 h-48 p-3 overflow-hidden animate-pulse rounded-lg"
+      ></div>
 
       <p
         v-if="users"
@@ -53,8 +57,10 @@
       >
         <div class="p-4" v-for="user in users" :key="user">
           <div class="flex flex-col items-center justify-center">
-            <div class="flex-shrink-0">
-              <a href="#" class="relative block">
+            <div
+              class="flex-shrink-0"
+            >
+              <a class="relative block">
                 <img
                   :src="user.avatar"
                   :alt="user.username"

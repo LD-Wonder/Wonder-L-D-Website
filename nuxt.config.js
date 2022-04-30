@@ -14,7 +14,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Rapid Services, a place to promote your stuff like no other!',
+        content:
+          'Rapid Services, a place where everyone is welcome, providing services that fit any budget. Our services vary from marketing to investing with guaranteed profits. We strive to maximize your money.',
       },
       { name: 'format-detection', content: 'telephone=no' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
@@ -29,7 +30,8 @@ export default {
       {
         name: 'og:description',
         hid: 'og:description',
-        content: 'Rapid Services, a place to promote your stuff like no other!',
+        content:
+          'Rapid Services, a place where everyone is welcome, providing services that fit any budget. Our services vary from marketing to investing with guaranteed profits. We strive to maximize your money.',
       },
       { name: 'author', content: 'MrFluffycloud' },
       { name: 'theme-color', content: '#9333ea' },

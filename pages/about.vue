@@ -3,6 +3,8 @@
     <NavBar></NavBar>
     <AboutHero></AboutHero>
     <AboutUs></AboutUs>
+    <AboutHistory></AboutHistory>
+    <AboutContacts></AboutContacts>
     <Footer></Footer>
   </main>
 </template>

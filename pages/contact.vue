@@ -28,10 +28,11 @@
               <div>
                 <label class="text-white sr-only" for="name">Name</label>
                 <input
-                  class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
+                  class="w-full p-3 text-sm input bg-gray-900 rounded-lg border-violet-600"
                   placeholder="Name"
                   type="text"
                   id="name"
+                  required
                   autocomplete="off"
                   v-model="content.name"
                 />
@@ -41,10 +42,11 @@
                 <div>
                   <label class="sr-only" for="email">Email</label>
                   <input
-                    class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
+                    class="w-full p-3 text-sm input bg-gray-900 rounded-lg border-violet-600"
                     placeholder="Email address"
                     type="email"
                     id="email"
+                    required
                     autocomplete="off"
                     v-model="content.email"
                   />
@@ -53,10 +55,11 @@
                 <div>
                   <label class="sr-only" for="tag">Discord Tag</label>
                   <input
-                    class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
+                    class="w-full p-3 text-sm input bg-gray-900 rounded-lg border-violet-600"
                     placeholder="Discord Tag"
                     type="tel"
                     id="tag"
+                    required
                     autocomplete="off"
                     v-model="content.tag"
                   />
@@ -66,10 +69,11 @@
               <div>
                 <label class="sr-only" for="message">Message</label>
                 <textarea
-                  class="w-full p-3 text-sm bg-gray-900 rounded-lg border-violet-600"
+                  class="w-full p-3 text-sm textarea bg-gray-900 rounded-lg border-violet-600"
                   placeholder="Message"
                   rows="8"
                   id="message"
+                  required
                   autocomplete="off"
                   v-model="content.message"
                 ></textarea>
@@ -78,9 +82,33 @@
               <div class="mt-4">
                 <button
                   type="submit"
+                  v-if="!error"
                   class="inline-flex items-center justify-center px-5 py-3 font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
                 >
                   <span class="font-medium"> Send Enquiry </span>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-5 h-5 ml-3"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <button
+                  type="submit"
+                  v-else
+                  class="inline-flex items-center justify-center px-5 py-3 font-medium text-white border rounded-full w-fit bg-violet-600 border-violet-600 sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring"
+                >
+                  <span class="font-medium"> Retry </span>
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -138,6 +166,7 @@
 export default {
   data() {
     return {
+      error: false,
       sent: false,
       content: {
         name: null,
@@ -149,6 +178,14 @@ export default {
   },
   methods: {
     send(e) {
+      if (!this.content.name) return (this.error = true)
+
+      if (!this.content.tag) return (this.error = true)
+
+      if (!this.content.email) return (this.error = true)
+
+      if (!this.content.message) return (this.error = true)
+
       console.log(this.content)
       this.$axios
         .$post('https://api.rapidnetwork.co/api/contact', this.content)

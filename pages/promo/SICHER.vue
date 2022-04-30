@@ -47,6 +47,12 @@
               >
                 Learn More
               </a>
+              <a
+                class="block w-auto px-12 py-3 text-sm font-semibol btn btn-primary btn-outline hover:text-neutral"
+                href="https://discord.gg/TmJGsAYtXh"
+              >
+                Join Support!
+              </a>
             </div>
           </div>
         </div>
