@@ -1,7 +1,7 @@
 <template>
   <main>
     <NavBar></NavBar>
-    <SharedBlankHero></SharedBlankHero>
+    <InfoPrivacy></InfoPrivacy>
     <Footer></Footer>
   </main>
 </template>

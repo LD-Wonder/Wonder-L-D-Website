@@ -2,7 +2,8 @@
   <main>
     <NavBar></NavBar>
     <InfoHero></InfoHero>
-    <InfoPrivacy></InfoPrivacy>
+    <InfoTOS></InfoTOS>
+    <InfoRefund></InfoRefund>
     <Footer></Footer>
   </main>
 </template>

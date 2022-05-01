@@ -196,20 +196,6 @@
             </div>
           </a>
           <a
-            href="/forms/affiliate"
-            class="w-auto card bg-neutral text-neutral-content"
-          >
-            <div class="items-center text-center card-body">
-              <h2 class="card-title">Affiliate Request!</h2>
-              <p>Fill out this form to affiliate with us! 📖</p>
-              <div class="justify-end card-actions">
-                <button class="btn btn-primary bg-violet-600">
-                  Affiliate Now!
-                </button>
-              </div>
-            </div>
-          </a>
-          <a
             href="/forms/collab"
             class="w-auto card bg-neutral text-neutral-content"
           >
@@ -223,17 +209,23 @@
               </div>
             </div>
           </a>
-          <a
-            href="/forms/review"
-            class="w-auto card bg-neutral text-neutral-content"
-          >
+          <!-- href="/forms/affiliate" -->
+          <a class="w-auto card bg-neutral text-neutral-content">
+            <div class="items-center text-center card-body">
+              <h2 class="card-title">Affiliate Request!</h2>
+              <p>Fill out this form to affiliate with us! 📖</p>
+              <div class="justify-end card-actions">
+                <button class="btn btn-ghost" disabled>Affiliate Now!</button>
+              </div>
+            </div>
+          </a>
+          <!--href="/forms/review" -->
+          <a class="w-auto card bg-neutral text-neutral-content">
             <div class="items-center text-center card-body">
               <h2 class="card-title">Customer Review!</h2>
               <p>Mind telling us how you feel about our services? ❓</p>
               <div class="justify-end card-actions">
-                <button class="btn btn-primary bg-violet-600">
-                  Review us!
-                </button>
+                <button class="btn btn-ghost" disabled>Review us!</button>
               </div>
             </div>
           </a>

@@ -62,7 +62,7 @@
           <img
             alt=""
             class="flex flex-col w-11/12 mx-auto rounded-3xl md:w-1/3 md:h-1/3 h-11/12 lg:mx-4 ring-2 bg-base-100 ring-primary ring-offset-base-100 ring-offset-4"
-            src="https://cdn.discordapp.com/attachments/774149413332844564/969165964845400135/Untitled_1.png"
+            src="https://media.discordapp.net/attachments/774149413332844564/969256322178613318/unknown.png"
           />
 
           <div
@@ -206,7 +206,7 @@
             <h1
               class="p-4 text-5xl font-black leading-none text-center text-primary"
             >
-              Proofs
+              Our Trader's Performance
             </h1>
             <div
               class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4"

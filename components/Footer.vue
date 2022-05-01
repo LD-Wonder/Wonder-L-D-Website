@@ -120,6 +120,12 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="/info/services"
+              >
+                What we got to offer!
+              </a>
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
                 href="/info/reviews"
               >
                 Company Review
@@ -152,7 +158,7 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="/info#privacy"
+                href="/info/privacy"
               >
                 Privacy Policy
               </a>
@@ -164,7 +170,7 @@
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="/info/refund"
+                href="/info#refund"
               >
                 Refund Policy
               </a>
