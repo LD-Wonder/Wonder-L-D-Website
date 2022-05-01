@@ -36,7 +36,43 @@
         </div>
         <!-- -->
       </div>
-      <p v-else class="my-8 text-3xl font-bold text-center text-white">Fetching..</p>
+      <div
+        v-else
+        class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
+      >
+        <!-- -->
+        <div class="animate-pulse">
+          <img
+            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+            class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
+          />
+
+          <blockquote
+            class="flex flex-col justify-between p-12 h-60 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
+          ></blockquote>
+        </div>
+        <div class="animate-pulse">
+          <img
+            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+            class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
+          />
+
+          <blockquote
+            class="flex flex-col justify-between p-12 h-60 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
+          ></blockquote>
+        </div>
+        <div class="animate-pulse">
+          <img
+            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+            class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
+          />
+
+          <blockquote
+            class="flex flex-col justify-between p-12 h-60 -mt-6 text-center bg-gray-800 rounded-lg shadow-xl"
+          ></blockquote>
+        </div>
+        <!-- -->
+      </div>
     </div>
   </section>
 </template>

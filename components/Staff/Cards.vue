@@ -19,6 +19,9 @@
               will get paid in monthly salary. You will be coordinated by your
               team leader and management to finish a set of assignments every
               week. The more deals you acquire, the more you get compensated.
+              <span class="block font-semibold text-opacity-25 text-gray-300 text-center py-2"
+                >Gets Paid Monthly</span
+              >
             </p>
           </div>
           <a
@@ -45,6 +48,9 @@
               management on planning and coordination. Assuming you are
               finishing every one of your jobs and keeping the rules and
               guidelines of HR, you will get compensated.
+              <span class="block font-semibold text-opacity-25 text-gray-300 text-center py-2"
+                >Gets Paid Monthly</span
+              >
             </p>
           </div>
           <a
