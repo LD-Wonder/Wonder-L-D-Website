@@ -50,7 +50,7 @@ export default {
           }, 1000)
         }
       },
-      immediate: true, // This ensures the watcher is triggered upon creation
+      immediate: true,
     },
   },
 }
