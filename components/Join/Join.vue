@@ -5,10 +5,8 @@
     >
       <div class="max-w-3xl mx-auto text-center">
         <h1 class="text-3xl font-extrabold text-purple-600 sm:text-5xl">
-          Wonder
-
-          <span class="text-white sm:block"> × </span>
-          <span class="text-blue-500"> L & D</span>
+          Rapid
+          <span class="text-blue-500">Services</span>
         </h1>
 
         <p

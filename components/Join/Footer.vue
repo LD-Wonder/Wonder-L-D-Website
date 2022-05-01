@@ -16,14 +16,14 @@
           <div class="flex mt-8 space-x-6 text-gray-500">
             <a
               class="hover:opacity-75"
-              href="#"
+              href="https://www.instagram.com/rapidms/"
               target="_blank"
               rel="noreferrer"
             >
               <span class="sr-only"> Instagram </span>
 
               <svg
-                class="w-6 h-6 hover:fill-pink-400"
+                class="w-6 h-6 hover:fill-pink-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -38,14 +38,14 @@
 
             <a
               class="hover:opacity-75"
-              href="#"
+              href="https://twitter.com/WelcomeAdvert"
               target="_blank"
               rel="noreferrer"
             >
               <span class="sr-only"> Twitter </span>
 
               <svg
-                class="w-6 h-6 hover:fill-blue-400"
+                class="w-6 h-6 hover:fill-blue-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -58,14 +58,14 @@
 
             <a
               class="hover:opacity-75"
-              href="#"
+              href="https://github.com/MrFluffycloud"
               target="_blank"
               rel="noreferrer"
             >
               <span class="sr-only"> GitHub </span>
 
               <svg
-                class="w-6 h-6 hover:fill-purple-400"
+                class="w-6 h-6 hover:fill-purple-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -89,25 +89,25 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/about"
               >
                 About
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/staff"
               >
                 Meet the Team
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/about#History"
               >
                 History
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/staff/careers"
               >
                 Careers
               </a>
@@ -120,7 +120,13 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/info/services"
+              >
+                What we got to offer!
+              </a>
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="/info/reviews"
               >
                 Company Review
               </a>
@@ -133,13 +139,13 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/contact"
               >
                 Contact
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/faq"
               >
                 FAQs
               </a>
@@ -152,19 +158,19 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-100">
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/info#tos"
+              >
+                Terms & Conditions </a
+              >
+              <a
+                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
+                href="/info/privacy"
               >
                 Privacy Policy
               </a>
               <a
                 class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
-              >
-                Terms & Conditions
-              </a>
-              <a
-                class="hover:opacity-75 hover:text-white hover:underline hover:decoration-violet-800"
-                href="#"
+                href="/info#refund"
               >
                 Refund Policy
               </a>
@@ -172,7 +178,6 @@
           </div>
         </div>
       </div>
-
       <p class="mt-8 text-xs text-gray-500">&copy; 2022 MrFluffycloud</p>
     </div>
   </footer>
