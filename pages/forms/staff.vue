@@ -546,8 +546,7 @@ export default {
       try {
         this.$axios
           .$post(
-            'https://api.rapidnetwork.co/api/TeststaffForm',
-            //'https://api.rapidnetwork.co/api/staffForm'
+            'https://api.rapidnetwork.co/api/staffForm',
             this.content
           )
           .then((x) => {
