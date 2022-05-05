@@ -28,6 +28,7 @@
               <div>
                 <label class="text-white sr-only" for="name">Name</label>
                 <input
+                  maxlength="1024"
                   class="w-full p-3 text-sm input bg-gray-900 rounded-lg border-violet-600"
                   placeholder="Name"
                   type="text"
@@ -42,6 +43,7 @@
                 <div>
                   <label class="sr-only" for="email">Email</label>
                   <input
+                    maxlength="1024"
                     class="w-full p-3 text-sm input bg-gray-900 rounded-lg border-violet-600"
                     placeholder="Email address"
                     type="email"
@@ -55,6 +57,7 @@
                 <div>
                   <label class="sr-only" for="tag">Discord Tag</label>
                   <input
+                    maxlength="1024"
                     class="w-full p-3 text-sm input bg-gray-900 rounded-lg border-violet-600"
                     placeholder="Discord Tag"
                     type="tel"
@@ -69,6 +72,7 @@
               <div>
                 <label class="sr-only" for="message">Message</label>
                 <textarea
+                  maxlength="1024"
                   class="w-full p-3 text-sm textarea bg-gray-900 rounded-lg border-violet-600"
                   placeholder="Message"
                   rows="8"
