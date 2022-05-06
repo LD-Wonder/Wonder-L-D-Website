@@ -80,7 +80,7 @@ export default {
   generate: { fallback: '404.html' },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   googleAnalytics: {
-    id: 'G-5DDRCF0C41',
+    id: 'UA-209743909-1',
   },
   build: {
     postcss: {
