@@ -72,12 +72,16 @@ export default {
     '@nuxt/postcss8',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios'],
   generate: { fallback: '404.html' },
   // Build Configuration: https://go.nuxtjs.dev/config-build
+  googleAnalytics: {
+    id: 'G-5DDRCF0C41',
+  },
   build: {
     postcss: {
       plugins: {
