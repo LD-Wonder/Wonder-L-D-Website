@@ -542,10 +542,6 @@ export default {
     send(e) {
       this.run = true
       var url = 'https://api.rapidnetwork.co/api/staffForm'
-      if (webpackHotUpdate) {
-        console.info('Sent Request to /TeststaffForm Cuz in development mode')
-        url = 'https://api.rapidnetwork.co/api/TeststaffForm'
-      }
       try {
         this.$axios
           .$post(url, this.content)
