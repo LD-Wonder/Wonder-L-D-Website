@@ -6,7 +6,7 @@
       </p>
       <div
         v-else
-        class="-m-8 text-3xl font-bold text-center text-white bg-gray-700 h-48 p-3 overflow-hidden animate-pulse rounded-lg"
+        class="h-48 p-3 -m-8 overflow-hidden text-3xl font-bold text-center text-white bg-gray-700 rounded-lg animate-pulse"
       ></div>
 
       <div
@@ -42,7 +42,7 @@
       </p>
       <div
         v-else
-        class="-m-8 text-3xl font-bold text-center text-white bg-gray-700 h-48 p-3 overflow-hidden animate-pulse rounded-lg"
+        class="h-48 p-3 -m-8 overflow-hidden text-3xl font-bold text-center text-white bg-gray-700 rounded-lg animate-pulse"
       ></div>
 
       <p

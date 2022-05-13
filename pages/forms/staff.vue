@@ -167,7 +167,7 @@
                   required
                   placeholder="Username"
                   v-model="content.username"
-                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -181,7 +181,7 @@
                   required
                   placeholder="ID"
                   v-model="content.id"
-                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -196,7 +196,7 @@
                   required
                   placeholder="Age"
                   v-model="content.age"
-                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -237,7 +237,7 @@
                   required
                   placeholder="8 - 48 Hours"
                   v-model="content.hoursperweek"
-                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -251,7 +251,7 @@
                   required
                   v-model="content.whyu"
                   placeholder="Why You??"
-                  class="w-full h-auto text-white border-gray-700 rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto  rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -266,7 +266,7 @@
                   required
                   placeholder="Past Experiences"
                   v-model="content.pastexp"
-                  class="w-full h-auto text-white border-gray-700 rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
 
@@ -281,7 +281,7 @@
                   required
                   v-model="content.sw"
                   placeholder="Your Answer.."
-                  class="w-full text-white border-gray-700 rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full  rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -361,7 +361,7 @@
                   id="other"
                   v-model="content.other"
                   placeholder="Anything else?.."
-                  class="w-full text-white border-gray-700 rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full  rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
             </div>
@@ -514,10 +514,10 @@ export default {
       ],
       teams: [
         'Marketers',
-        'Human Resources',
+        //'Human Resources',
+        //'Developers',
         'Moderator',
         'Partnership Coordinator',
-        'Developer',
         'Designer',
         'Shill Manager',
       ],
