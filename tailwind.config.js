@@ -26,6 +26,7 @@ module.exports = {
       height: {
         '1/2': '50%',
       },
+      width: {},
       scale: {
         30: '.3',
       },
