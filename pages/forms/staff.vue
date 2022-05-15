@@ -207,7 +207,7 @@
                 <select
                   id="timezone"
                   v-model="content.timezone"
-                  class="w-full max-w-xs text-white select select-primary"
+                  class="w-full max-w-xs select select-primary"
                   required
                 >
                   <option disabled selected>Choose your Timezone!</option>
@@ -323,7 +323,7 @@
                 <select
                   id="team"
                   v-model="content.team"
-                  class="w-full max-w-xs text-white select select-primary"
+                  class="w-full max-w-xs select select-primary"
                   required
                 >
                   <option disabled selected>Choose your team!</option>
