@@ -13,34 +13,6 @@
           class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
         >
           <div>
-            <div class="py-2 text-2xl font-bold text-violet-500">Marketers</div>
-            <p class="text-base font-medium text-white">
-              Your assignments will be to track down sales consistently. You
-              will get paid in monthly salary. You will be coordinated by your
-              team leader and management to finish a set of assignments every
-              week. The more deals you acquire, the more you get compensated.
-              <span
-                class="block font-semibold text-opacity-25 text-gray-300 text-center py-2"
-                >Gets Paid Monthly</span
-              >
-            </p>
-          </div>
-          <a
-            href="/forms/staff"
-            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
-          >
-            Apply
-          </a>
-        </div>
-      </div>
-
-      <div
-        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow"
-      >
-        <div
-          class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
-        >
-          <div>
             <div class="py-2 text-2xl font-bold text-violet-500">Moderator</div>
             <p class="text-base font-medium text-white">
               Moderating is a vital role to play as it keeps the community safe
@@ -134,6 +106,34 @@
           </a>
         </div>
       </div>
+      <div
+        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow opacity-50"
+      >
+        <div
+          class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
+        >
+          <div>
+            <div class="py-2 text-2xl font-bold text-violet-500">Marketers</div>
+            <p class="text-base font-medium text-white">
+              Your assignments will be to track down sales consistently. You
+              will get paid in monthly salary. You will be coordinated by your
+              team leader and management to finish a set of assignments every
+              week. The more deals you acquire, the more you get compensated.
+              <span
+                class="block font-semibold text-opacity-25 text-gray-300 text-center py-2"
+                >Gets Paid Monthly</span
+              >
+            </p>
+          </div>
+          <button
+            disabled
+            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
+          >
+            Closed
+          </button>
+        </div>
+      </div>
+
       <div
         class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow opacity-50"
       >

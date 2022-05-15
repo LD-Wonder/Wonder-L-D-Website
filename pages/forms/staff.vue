@@ -513,7 +513,7 @@ export default {
         '(UTC+13:00) Samoa',
       ],
       teams: [
-        'Marketers',
+        //'Marketers',
         //'Human Resources',
         //'Developers',
         'Moderator',
