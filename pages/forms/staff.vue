@@ -167,7 +167,7 @@
                   required
                   placeholder="Username"
                   v-model="content.username"
-                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-gray-800 rounded-md bg-slate-200 input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -181,7 +181,7 @@
                   required
                   placeholder="ID"
                   v-model="content.id"
-                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-gray-800 rounded-md bg-slate-200 input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -196,7 +196,7 @@
                   required
                   placeholder="Age"
                   v-model="content.age"
-                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-gray-800 rounded-md bg-slate-200 input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -207,10 +207,10 @@
                 <select
                   id="timezone"
                   v-model="content.timezone"
-                  class="w-full max-w-xs select select-primary"
+                  class="w-full max-w-xs text-gray-800 bg-slate-200 select select-primary"
                   required
                 >
-                  <option disabled selected>Choose your Timezone!</option>
+                  <option disabled  selected>Choose your Timezone!</option>
                   <option v-for="timezone in timezones" :key="timezone">
                     {{ timezone }}
                   </option>
@@ -237,7 +237,7 @@
                   required
                   placeholder="8 - 48 Hours"
                   v-model="content.hoursperweek"
-                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-gray-800 rounded-md bg-slate-200 input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -251,7 +251,7 @@
                   required
                   v-model="content.whyu"
                   placeholder="Why You??"
-                  class="w-full h-auto  rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-gray-800 rounded-md textarea bg-slate-200 focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -266,7 +266,7 @@
                   required
                   placeholder="Past Experiences"
                   v-model="content.pastexp"
-                  class="w-full h-auto  rounded-md input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full h-auto text-gray-800 rounded-md bg-slate-200 input input-bordered focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
 
@@ -281,7 +281,7 @@
                   required
                   v-model="content.sw"
                   placeholder="Your Answer.."
-                  class="w-full  rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full text-gray-800 rounded-md textarea bg-slate-200 focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
               <div class="col-span-full sm:col-span-3">
@@ -323,7 +323,7 @@
                 <select
                   id="team"
                   v-model="content.team"
-                  class="w-full max-w-xs select select-primary"
+                  class="w-full max-w-xs text-gray-800 bg-slate-200 select select-primary"
                   required
                 >
                   <option disabled selected>Choose your team!</option>
@@ -361,7 +361,7 @@
                   id="other"
                   v-model="content.other"
                   placeholder="Anything else?.."
-                  class="w-full  rounded-md textarea focus:ring focus:ring-opacity-75 focus:ring-violet-400"
+                  class="w-full text-gray-800 rounded-md textarea bg-slate-200 focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                 />
               </div>
             </div>
