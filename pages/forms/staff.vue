@@ -516,7 +516,7 @@ export default {
         //'Marketers',
         //'Human Resources',
         //'Developers',
-        'Moderator',
+        //'Moderator',
         'Partnership Coordinator',
         'Designer',
         'Shill Manager',
