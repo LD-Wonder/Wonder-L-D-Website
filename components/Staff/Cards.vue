@@ -4,7 +4,7 @@
     id="Apply"
   >
     <div
-      class="grid justify-items-center max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto"
+      class="grid max-w-md gap-10 row-gap-8 justify-items-center lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto"
     >
       <div
         class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow"
@@ -20,47 +20,19 @@
               team leader and management to finish a set of assignments every
               week. The more deals you acquire, the more you get compensated.
               <span
-                class="block font-semibold text-opacity-25 text-gray-300 text-center py-2"
+                class="block py-2 font-semibold text-center text-gray-300 text-opacity-25"
                 >Gets Paid Monthly</span
               >
             </p>
           </div>
           <a
             href="/forms/staff"
-            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md btn bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
           >
             Apply
           </a>
         </div>
       </div>
-      <div
-        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow"
-      >
-        <div
-          class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
-        >
-          <div>
-            <div class="py-2 text-2xl font-bold text-violet-500">
-              Partnership Coordinator
-            </div>
-            <p class="text-base font-medium text-white">
-              Being a partnership coordinator is searching for different
-              communities. You would have to complete weekly tasks that
-              management or your team leader has given you in order to stay as a
-              partnership coordinator. It is a vital role to grow the service
-              and community. Their job is mainly to bring in affiliates for our
-              server.
-            </p>
-          </div>
-          <a
-            href="/forms/staff"
-            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
-          >
-            Apply
-          </a>
-        </div>
-      </div>
-
       <div
         class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow"
       >
@@ -84,34 +56,9 @@
           </a>
         </div>
       </div>
+      
       <div
-        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow"
-      >
-        <div
-          class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
-        >
-          <div>
-            <div class="py-2 text-2xl font-bold text-violet-500">
-              Shill Manager
-            </div>
-            <p class="text-base font-medium text-white">
-              Shill manager is likewise one of the variables of our income. Your
-              assignments will be to post advertisements in different servers.
-              You will earn $0.025 for each promotion you post, which makes this
-              the simplest paid work on our server. The more advertisements you
-              post, the more you get compensated.
-            </p>
-          </div>
-          <a
-            href="/forms/staff"
-            class="inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
-          >
-            Apply
-          </a>
-        </div>
-      </div>
-      <div
-        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow opacity-50"
+        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm opacity-50 hover:shadow"
       >
         <div
           class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
@@ -127,7 +74,7 @@
           </div>
           <button
             disabled
-            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md btn bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
           >
             Closed
           </button>
@@ -135,7 +82,7 @@
       </div>
 
       <div
-        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow opacity-50"
+        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm opacity-50 hover:shadow"
       >
         <div
           class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
@@ -151,21 +98,21 @@
               finishing every one of your jobs and keeping the rules and
               guidelines of HR, you will get compensated.
               <span
-                class="block font-semibold text-opacity-25 text-gray-300 text-center py-2"
+                class="block py-2 font-semibold text-center text-gray-300 text-opacity-25"
                 >Gets Paid Monthly</span
               >
             </p>
           </div>
           <button
             disabled
-            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md btn bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
           >
             Closed
           </button>
         </div>
       </div>
       <div
-        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm hover:shadow opacity-50"
+        class="flex flex-col transition duration-300 bg-gray-800 rounded shadow-sm opacity-50 hover:shadow"
       >
         <div
           class="flex flex-col justify-between flex-grow p-8 rounded-md outline outline-offset-2 outline-violet-400"
@@ -182,7 +129,7 @@
           </div>
           <button
             disabled
-            class="btn inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center justify-center w-full h-12 px-6 py-4 my-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md btn bg-violet-500 hover:bg-violet-700 focus:shadow-outline focus:outline-none"
           >
             Closed
           </button>

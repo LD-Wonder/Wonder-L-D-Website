@@ -517,9 +517,9 @@ export default {
         //'Human Resources',
         //'Developers',
         //'Moderator',
-        'Partnership Coordinator',
+        //'Partnership Coordinator',
         'Designer',
-        'Shill Manager',
+        //'Shill Manager',
       ],
       content: {
         username: null,
